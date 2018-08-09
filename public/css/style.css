@@ -1,7 +1,45 @@
-.main-nav{
-    background-color:pink;
+.homepage-landing{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/group-1.jpg");
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1;
 }
 
-.container{
-    background-color:red;
+#homepage-header{
+    width:30%;
+    position:relative;
+    left:33%;
+    top:20rem;
+    text-align: center;
+    color:white;
+    height:100vh;
+    font-family: 'Julius Sans One', sans-serif;
+    
+    
+   
+}
+
+#homepage-header h1{
+    line-height: 150%;
+}
+.homepage-headline span{
+    color:rgb(57, 196, 57);
+}
+#logo{
+    width:150px;
+   position:relative;
+   top:10rem;
+   left:30rem;
+}
+
+.homepage-headline{
+    font-size:5vh;
+}
+
+.homepageheader-subtext{
+    font-size:2vh;
 }
