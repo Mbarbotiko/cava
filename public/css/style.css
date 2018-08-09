@@ -1,3 +1,7 @@
+body{
+    margin: auto 0;
+}
+
 .homepage-landing{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/group-1.jpg");
     background-size:cover;
@@ -18,9 +22,13 @@
     color:white;
     height:100vh;
     font-family: 'Julius Sans One', sans-serif;
-    
-    
-   
+}
+
+#main-nav{
+    background-color:rgba(255, 255, 255, 0.5)!important;
+    position: absolute;
+    z-index: 2;
+    width:100%;
 }
 
 #homepage-header h1{
@@ -32,8 +40,7 @@
 #logo{
     width:150px;
    position:relative;
-   top:10rem;
-   left:30rem;
+
 }
 
 .homepage-headline{
@@ -47,36 +54,57 @@
 .dishes #dish1, #dish2, #dish3, #dish4, #dish5, #dish6, #dish7, #dish8{
     width:25%;
     float: left;
+    background-size:cover;
+    background-position:center;
+    height:25rem;
 }
+
 
 #dish1{
     background-color:red;
+    background-image:url("../images/dish1.jpg");
+    width:25%;
+    
 }
 
 #dish2{
-    background-color:blue
+    background-color:blue;
+    background-image:url("../images/dish2.jpg");
+    width:25%;
 }
 
 #dish3{
-    background-color:purple
+    background-color:purple;
+    background-image:url("../images/dish3.jpg");
+    width:25%;
 }
 
 #dish4{
-    background-color:green
+    background-color:green;
+    background-image:url("../images/dish4.jpg");
+    width:25%;
 }
 
 #dish5{
-    background-color:turquoise
+    background-color:turquoise;
+    background-image:url("../images/dish5.jpg");
+    width:25%;
 }
 
 #dish6{
-    background-color:yellow
+    /* background-color:yellow; */
+    background-image:url("../images/dish6.jpg");
+    width:25%;
 }
 
 #dish7{
-    background-color:pink
+    background-color:pink;
+    background-image:url("../images/dish7.jpg");
+    width:25%;
 }
 
 #dish8{
-    background-color:gray
+    background-color:gray;
+    background-image:url("../images/dish8.jpg");
+    width:25%;
 }

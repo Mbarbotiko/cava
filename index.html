@@ -10,6 +10,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="reset.css">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 
 
@@ -33,14 +43,41 @@
 </head>
 
 <body>
-
-    <header class="homepage-landing">
-        <div class="header-container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="main-nav">
+        <a class="navbar-brand" href="#">
             <div class="header-logo">
                 <a href="#" title="Home">
                     <img id="logo" src="public/images/cava-logo.gif">
                 </a>
             </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Menu
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Location</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Careers</a>
+                </li>
+
+
+        </div>
+    </nav>
+
+    <header class="homepage-landing">
+        <div class="header-container">
             <div id="homepage-header">
                 <h1 class="homepage-headline"> WELCOME TO CAVA THIS WILL
                     <span> TRULY</span> BE AN
@@ -88,6 +125,14 @@
             <h1>WORDS</h1>
         </div>
 
+    </div>
+
+    <div class="reviews">
+        <h1>REVIEWS GO HERE</h1>
+
+    </div>
+    <div class="location">
+        <h1>LOCATION AND CONTACT INFORMATION HERE</h1>
     </div>
 
     <footer>
