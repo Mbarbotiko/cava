@@ -1,21 +1,24 @@
-// $(document).ready(function () {
-// var dishOne=$('#black');
-// $(dishOne).hide();
- 
-// $('.dish1').hover(
-//     function () {
-//       $(dishOne).show();
-//       $(".dish1").fadeTo(.5)
-      
-//     }, 
-//     function () {
-//       $(dishOne).hide()
-//       $(".dish1").css("background-color", "none", "background-image", "url(../images/dish1.jpg");
-      
+$(document).ready(function () {
+  
 
-//       }
-    
-//   );
+  $(".loc").on('click',function(){
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
 
+      // Store hash
+      var hash = $('.location');
 
-// });
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    }
+   }); // End if
+
+});
