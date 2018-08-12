@@ -1,24 +1,29 @@
 $(document).ready(function () {
   
-
+//Onclick nav "Location" & "Reviews" using JQuery animate method to set hash in html to scroll to the set window location in 2 seconds.
   $(".loc").on('click',function(){
     if (this.hash !== "") {
-      // Prevent default anchor click behavior
       event.preventDefault();
-
-      // Store hash
       var hash = $('.location');
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
+      }, 2000, function(){
         window.location.hash = hash;
       });
     }
-   }); // End if
+   });
+
+   
+  $(".rev").on('click',function(){
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = $('.reviews');
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 2000, function(){
+        window.location.hash = hash;
+      });
+    }
+   }); 
 
 });
