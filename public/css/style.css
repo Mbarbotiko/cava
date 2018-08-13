@@ -23,6 +23,7 @@ body, html{
     text-align: center;
     color:white;
     height:100vh;
+    /* the height on this is affecting the onclick and hover effects, div is overlapping the menuitems pictures, fix later */
 }
 
 #main-nav{
