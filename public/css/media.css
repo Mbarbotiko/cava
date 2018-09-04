@@ -239,11 +239,11 @@
     }
     
     #show-reviews h1{
-        font-size:1.5em;
+        font-size:1em;
     }
     
     #show-reviews p{
-        font-size:1em;
+        font-size:.5em;
         padding-bottom:10px;
     }
 
