@@ -40,7 +40,7 @@ body, html{
 .homepage-headline span{
     color:rgb(57, 196, 57);
 }
-#logo{
+.logo{
     width:150px;
    position:relative;
 
@@ -143,35 +143,50 @@ body, html{
 }
 
 
+
+
 .reviews{
-    position:relative;
+    float:left;
+    height:25vh;
+    overflow:contain;
+}
+
+.reviews.left{
+    width:33%;
+}
+
+.left .logo{
+    left:50%;
+    top:2vh;
+}
+
+.reviews.right{
+    width:67%;
+}
+
+#show-reviews{
+    width:70%;
+    position: relative;
     left:10%;
-    width:80%;
-    float: left;
-    clear: both;
-}
-
-.carousel-item h1, p{
-    position: absolute;
-    top:50%;
-    left:30%;
-    z-index: 2;
-    width:40%;
 
 }
 
-.carousel-item h1{
-    position: absolute;
-    top:25%;
+#show-reviews h1{
+    font-size:3em;
+}
+
+#show-reviews p{
+    font-size:1em;
+    padding-bottom:10px;
 }
 
 .location{
+    padding-top:3vh;
     background-color:rgb(61, 36, 36);
     color:white;
     text-align: center;
-    position:relative;
+    padding-bottom:3vh;
     clear: both;
-    padding-bottom:10px;
-    padding-top:10px;
-  
+    
 }
+
