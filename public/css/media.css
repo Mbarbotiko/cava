@@ -29,6 +29,8 @@
         font-size:7.5vh;
     }
 
+
+
 }
 
 @media screen and (max-width: 1250px) and (min-width: 650px) {
@@ -42,6 +44,14 @@
     .homepage-headline{
         font-size:32pt;
         left:40%;
+    }
+
+    .homepageheader-subtext{
+        font-size:2.5vh;
+        width:100%;
+        position: relative;
+        top:25px;
+        left:0px;
     }
 
  
@@ -78,6 +88,18 @@
         float:left;
         height:27vh;
         overflow:contain;
+    }
+
+    .ingredients{
+        font-size: 2vh;
+    
+        
+    }
+
+    .ingredients span{
+        font-size: 2.5vh;
+    
+        
     }
     
 
@@ -153,6 +175,18 @@
     }
     .reviews.right{
         width:100%;
+    }
+
+    .ingredients{
+        font-size: 4vh;
+    
+        
+    }
+
+    .ingredients span{
+        font-size: 4.5vh;
+    
+        
     }
 
 }
