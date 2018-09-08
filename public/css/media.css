@@ -1,59 +1,27 @@
 
-@media screen and (max-width: 1700px) and (min-width: 1500px) {
-/* 
+
+@media screen and (max-width: 1250px) and (min-width: 768px) {
+
+    .homepage-landing{
+
+        height:110vh;
+        width:100vw;
+
+    }
+
     #homepage-header{
-        width:40%;
-        left:30%;
-      
-    } */
-    /* .homepage-headline{
-        font-size:7vh;
+        width: 70%;
+
+    }
+    .homepage-headline{
+        font-size:8vw;
     }
 
     .homepageheader-subtext{
-        font-size:2.5vh;
+        margin-top:3em;
+        font-size:24pt;
+    }
     
-    } */
-
-  
-}
-
-@media screen and (max-width: 1500px) and (min-width: 1250px) {
-    /* #homepage-header{
-        width:60%;
-        left:20%;
-      
-      
-    } */
-    /* .homepage-headline{
-        font-size:7.5vh;
-    } */
-
-
-
-}
-
-@media screen and (max-width: 1250px) and (min-width: 650px) {
-
-    /* #homepage-header{
-        width:60%;
-        left:20%;
-      
-      
-    } */
-    /* .homepage-headline{
-        font-size:32pt;
-        left:40%;
-    }
-
-    .homepageheader-subtext{
-        font-size:2.5vh;
-        width:100%;
-        position: relative;
-        top:25px;
-        left:0px;
-    } */
-
  
     #dishes .dish{
         width:50%;
@@ -67,29 +35,6 @@
 
     }
 
-    #show-reviews{
-        padding-left:10px;
-        width:90%;
-        position: relative;
-        left:10%;
-    
-    }
-    
-    #show-reviews h1{
-        font-size:1.5em;
-    }
-    
-    #show-reviews p{
-        font-size:1em;
-        padding-bottom:10px;
-    }
-
-    .reviews{
-        float:left;
-        height:27vh;
-        overflow:contain;
-    }
-
     .ingredients{
         font-size: 2vh;
     
@@ -101,38 +46,49 @@
     
         
     }
+
+    .reviews{
+        height:275px;
+    }
+
+  
+    #show-reviews{
+        height:275px;
+        width:90%;
+   
+    }
+
     
+
+
 
 }
 
 
-@media screen and (max-width: 650px) and (min-width: 450px) {
+@media screen and (max-width: 768px) and (min-width: 450px) {
 
     #main-nav{
         background-color:rgba(255, 255, 255, 0.7)!important;
  
     }
 
+    .homepage-landing{
 
-/* 
+        height:110vh;
+        width:100vw;
+
+    }
     #homepage-header{
-        width:65%;
-        left:15%;
-      
-      
-    } */
-    /* .homepage-headline{
-        font-size:5vh;
+        width: 90%;
+
+    }
+    .homepage-headline{
+        font-size:8vw;
     }
 
     .homepageheader-subtext{
-        font-size:2.5vh;
-        width:100%;
-        position: relative;
-        top:25px;
-        left:0px;
+        margin-top:3em;
     }
- */
 
 
     #dishes .dish{
@@ -145,36 +101,6 @@
     #dishes .dish>div{
         height:40rem;
 
-    }
-
-    
-    #show-reviews{
-        width:90%;
-        position: relative;
-       
-    
-    }
-    
-    #show-reviews h1{
-        font-size:2em;
-    }
-    
-    #show-reviews p{
-        font-size:1em;
-        padding-bottom:10px;
-    }
-
-    .reviews{
-        float:left;
-        height:27vh;
-        overflow:contain;
-    }
-
-    .reviews.left{
-       display: none;
-    }
-    .reviews.right{
-        width:100%;
     }
 
     .ingredients{
@@ -189,35 +115,46 @@
         
     }
 
+    .reviews{
+        height:350px;
+    }
+    #show-reviews{
+        height:350px;
+        width:90%;
+   
+    }
+
+
 }
 
 
 @media screen and (max-width: 450px) and (min-width: 0px) {
+
+    
+    .homepage-landing{
+        height:110vh;
+        width:100vw;
+
+    }
+
+    #homepage-header{
+        width: 90%;
+        top:20vh;
+
+    }
+    .homepage-headline{
+        font-size:10vw;
+    }
+
+    .homepageheader-subtext{
+        margin-top:2vh;
+        font-size:16pt;
+    }
     
     #main-nav{
         background-color:rgba(255, 255, 255, 0.95)!important;
  
     }
-    
-    /* #homepage-header{
-        width:80%;
-        left:10%;
-      
-      
-    } */
-    /* .homepage-headline{
-        font-size:28pt;
-        
-    }
-
-    .homepageheader-subtext{
-        font-size:2.5vh;
-        width:100%;
-        position: relative;
-        top:25px;
-        left:0px;
-    }
-    */
 
  
     #dishes .dish{
@@ -232,83 +169,71 @@
 
     }
 
-    #show-reviews{
-        left:5%;
-        width:90%;
-        position: relative;
-       
-    
-    }
-    
-    #show-reviews h1{
-        font-size:1.5em;
-    }
-    
-    #show-reviews p{
-        font-size:1em;
-        padding-bottom:10px;
-    }
-
-    .reviews{
-        float:left;
-        height:50vh;
-        overflow:contain;
-    }
 
     .reviews.left{
        display: none;
+       width:0px;
     }
     .reviews.right{
         width:100%;
     }
 
-    
+    .reviews{
+        height:350px;
+        width:100%;
+    }
+    #show-reviews{
+        height:350px;
+        width:100%;
+        left:0%;
+        text-align: center
    
+    }
+
 } 
 
 
 @media screen and (max-width: 350px) and (min-width: 0px) {
+    .homepage-landing{
 
-    /* #homepage-header{
-        width:100%;
-        left:0%;
-      
-      
-    } */
-    /* .homepage-headline{
-        font-size:22pt;
-       
-    } */
+        height:110vh;
+        width:100vw;
 
-    #show-reviews{
-        left:5%;
-        width:90%;
-        position: relative;
-       
-    
-    }
-    
-    #show-reviews h1{
-        font-size:1em;
-    }
-    
-    #show-reviews p{
-        font-size:.75em;
-        padding-bottom:10px;
     }
 
-    .reviews{
-        float:left;
-        height:40vh;
-        overflow:contain;
+    #homepage-header{
+        width: 90%;
+        top:16rem;
+
     }
+    .homepage-headline{
+        font-size:7.5vw;
+    }
+
+    .homepageheader-subtext{
+        margin-top:4em;
+        font-size:12pt;
+    }
+
 
     .reviews.left{
-       display: none;
-    }
-    .reviews.right{
-        width:100%;
-    }
+        display: none;
+        width:0px;
+     }
+     .reviews.right{
+         width:100%;
+     }
+ 
+     .reviews{
+         height:375px;
+         width:100%;
+     }
+     #show-reviews{
+         height:375px;
+         width:100%;
+         left:0%;
+         text-align: center
+    
+     }
 
-   
 }

@@ -25,7 +25,6 @@ body, html{
     top:18rem;
     text-align: center;
     color:white;
-    background-color:red;
     height: 80vh;
     overflow: hidden;
  
@@ -51,7 +50,7 @@ body, html{
 }
 
 .homepage-headline{
-    font-size:3vw;
+    font-size:3.5vw;
 }
 
 .homepageheader-subtext{
@@ -184,6 +183,7 @@ body, html{
     position: relative;
     left:10%;
     height:250px;
+
 }
 
 #show-reviews h1{
@@ -203,11 +203,11 @@ body, html{
 }
 
 .location{
-    padding-top:3vh;
+    padding-top:50px;
     background-color:rgb(61, 36, 36);
     color:white;
     text-align: center;
-    padding-bottom:3vh;
+    padding-bottom:50px;
     clear: both;
     
 }
