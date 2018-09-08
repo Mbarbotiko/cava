@@ -160,43 +160,46 @@ body, html{
     color:black;
 }
 
-
-
-
-.reviews{
-    float:left;
-    height:35vh;
-
-}
-
 .reviews.left{
     width:33%;
 }
 
 .left .logo{
     left:50%;
-    top:2vh;
+    top:50px;
 }
 
 .reviews.right{
     width:67%;
 }
 
+.reviews{
+    float:left;
+    height:250px;
+}
+
 #show-reviews{
+    display: table;
     width:70%;
     position: relative;
     left:10%;
-
+    height:250px;
 }
 
 #show-reviews h1{
-    font-size:3em;
+    font-size:22pt;
     color:rgb(57, 196, 57);
+    margin:auto;
+    position: relative;
+    top:50px; 
 }
 
 #show-reviews p{
-    font-size:1em;
-    padding-bottom:10px;
+    font-size:14pt;
+    margin:auto;
+    position: relative;
+    padding-top:25px;
+    top:50px;
 }
 
 .location{
