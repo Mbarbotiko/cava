@@ -13,16 +13,22 @@ body, html{
     height:110vh;
     width:100vw;
     z-index:1;
+    height: 110vmin;
+    overflow: hidden;
 
 }
 
 #homepage-header{
-    width:30%;
+    width: 40%;
     position:relative;
-    left:35%;
-    top:20rem;
+    margin:auto;
+    top:18rem;
     text-align: center;
     color:white;
+    background-color:red;
+    height: 80vh;
+    overflow: hidden;
+ 
 }
 
 #main-nav{
@@ -49,8 +55,10 @@ body, html{
 }
 
 .homepageheader-subtext{
-    margin-top:20%;
-    font-size:1.5vw;
+    margin:auto;
+    font-size:14pt;
+    width:75%;
+    margin-top:5em;
 }
 
 .dishes-header{

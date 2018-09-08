@@ -1,11 +1,11 @@
 
 @media screen and (max-width: 1700px) and (min-width: 1500px) {
-
+/* 
     #homepage-header{
         width:40%;
         left:30%;
       
-    }
+    } */
     .homepage-headline{
         font-size:7vh;
     }
@@ -19,12 +19,12 @@
 }
 
 @media screen and (max-width: 1500px) and (min-width: 1250px) {
-    #homepage-header{
+    /* #homepage-header{
         width:60%;
         left:20%;
       
       
-    }
+    } */
     .homepage-headline{
         font-size:7.5vh;
     }
@@ -35,12 +35,12 @@
 
 @media screen and (max-width: 1250px) and (min-width: 650px) {
 
-    #homepage-header{
+    /* #homepage-header{
         width:60%;
         left:20%;
       
       
-    }
+    } */
     .homepage-headline{
         font-size:32pt;
         left:40%;
@@ -114,13 +114,13 @@
     }
 
 
-
+/* 
     #homepage-header{
         width:65%;
         left:15%;
       
       
-    }
+    } */
     .homepage-headline{
         font-size:5vh;
     }
@@ -199,12 +199,12 @@
  
     }
     
-    #homepage-header{
+    /* #homepage-header{
         width:80%;
         left:10%;
       
       
-    }
+    } */
     .homepage-headline{
         font-size:28pt;
         
@@ -269,12 +269,12 @@
 
 @media screen and (max-width: 350px) and (min-width: 0px) {
 
-    #homepage-header{
+    /* #homepage-header{
         width:100%;
         left:0%;
       
       
-    }
+    } */
     .homepage-headline{
         font-size:22pt;
        

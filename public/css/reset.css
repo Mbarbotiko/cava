@@ -28,6 +28,13 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+body, html{
+  width:100%;
+  margin:0px;
+  overflow-x:hidden;
+}
+
+
 ol, ul {
 	list-style: none;
 	
