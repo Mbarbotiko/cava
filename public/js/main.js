@@ -62,38 +62,36 @@ $(document).ready(function () {
 
   }
 
-//Media screen query for mobile users, still working on this first find the DIV location in the window, then store that variable and pass it into another function that changes the CSS when that DIV is passed on scroll
-  // const mediaQuery = window.matchMedia('(max-width: 768px)');
-  // if (mediaQuery.matches) {
+// Media screen query for mobile users, still working on this first find the DIV location in the window, then store that variable and pass it into another function that changes the CSS when that DIV is passed on scroll
+  const mediaQuery = window.matchMedia('(max-width: 768px)');
+  if (mediaQuery.matches) {
 
+    function offset(el) {
+      const rect = el.getBoundingClientRect(),
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+    }
+    const div = document.querySelector('.dish1');
+    const divOffset = offset(div);
 
-  //   function offset(el) {
-  //     const rect = el.getBoundingClientRect(),
-  //       scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
-  //       scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-  //     return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
-  //   }
-  //   const div = document.querySelector('.dish1');
-  //   const divOffset = offset(div);
-  //   console.log(divOffset.left, divOffset.top);
+    var scroll_pos = 0;
+    $(window).scroll(function () {
+      scroll_pos = $(this).scrollTop();
+      if (scroll_pos > divOffset.top -50) {
+        // $(".test").removeClass('hidden');
+        $(".dish1 div").css('opacity','.7');
+      }
+      else {
 
-  //   var scroll_pos = 0;
-  //   $(window).scroll(function () {
-  //     scroll_pos = $(this).scrollTop();
-  //     if (scroll_pos > divOffset.top -50) {
-  //       // $(".test").removeClass('hidden');
-  //       $(".dish1").html('Words Will Appear Inside of this DIV')
-  //     }
-
-  //     // else {
+        $(".dish1 div").css('opacity','.0');
        
-  //     // }
-  //     console.log(scroll_pos);
+      }
 
-  //   });
+    });
 
 
-  // }
+  }
 
 
 });
