@@ -109,17 +109,6 @@ body, html{
 
 }
 
-#choose{
-    position: relative;
-    background: black;
-    color: #fff;
-    opacity: 0;
-    transition: opacity .5s;
-    transition-duration: 1.5s;
-    display: table;
-    height:300px;
-
-}
 
 #dishes .dish:hover > div {
 	opacity: 0.7;

@@ -19,7 +19,7 @@ $(document).ready(function () {
   $(".rev").on('click', function () {
     if (this.hash !== "") {
       event.preventDefault();
-      var hash = $('.reviews');
+      var hash = $('#show-reviews');
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 2000, function () {
