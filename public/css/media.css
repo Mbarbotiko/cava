@@ -122,14 +122,26 @@
         
     }
 
-    .reviews{
-        height:350px;
-    }
-    #show-reviews{
-        height:350px;
-        width:90%;
-   
-    }
+    .reviews.left{
+        display: none;
+        width:0px;
+     }
+     .reviews.right{
+         width:100%;
+     }
+ 
+     .reviews{
+         height:250px;
+         width:100%;
+     }
+     #show-reviews{
+         height:250px;
+         width:100%;
+         left:0%;
+         text-align: center
+    
+     }
+ 
 
 
 }
