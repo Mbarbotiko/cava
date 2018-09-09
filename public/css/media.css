@@ -14,12 +14,15 @@
 
     }
     .homepage-headline{
-        font-size:8vw;
+        font-size:5vw;
+        font-size:6.5vh;
+        
     }
 
     .homepageheader-subtext{
         margin-top:3em;
-        font-size:24pt;
+        font-size:3vw;
+        font-size:3vh;
     }
     
  
@@ -83,11 +86,15 @@
 
     }
     .homepage-headline{
-        font-size:8vw;
+        font-size:5vw;
+        font-size:5vh;
     }
 
     .homepageheader-subtext{
         margin-top:3em;
+        font-size:3.5vw;
+        font-size:3.5vh;
+    
     }
 
 
@@ -144,11 +151,13 @@
     }
     .homepage-headline{
         font-size:10vw;
+        font-size:10vh;
     }
 
     .homepageheader-subtext{
         margin-top:2vh;
-        font-size:16pt;
+        font-size:3.5vw;
+        font-size:2.5vh;
     }
     
     #main-nav{
@@ -212,7 +221,8 @@
 
     .homepageheader-subtext{
         margin-top:4em;
-        font-size:12pt;
+        font-size:3.5vw;
+        font-size:2.5vh;
     }
 
 

@@ -3,6 +3,8 @@ body, html{
     font-family: 'Julius Sans One', sans-serif;
 }
 
+
+
 .homepage-landing{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/group-1.jpg");
     background-size:cover;
@@ -51,11 +53,13 @@ body, html{
 
 .homepage-headline{
     font-size:3.5vw;
+    font-size:6.5vh;
 }
 
 .homepageheader-subtext{
     margin:auto;
-    font-size:14pt;
+    font-size:2vw;
+    font-size:2vh;
     width:75%;
     margin-top:5em;
 }
@@ -64,6 +68,7 @@ body, html{
     position:relative;
     top:70%;
     left:5%;
+   
 }
 
 .ingredients{
@@ -73,6 +78,7 @@ body, html{
     width:80%;
     text-align: center;
     left:10%;
+    
     
 }
 
@@ -97,6 +103,7 @@ body, html{
     color: #fff;
     opacity: 0;
     transition: opacity .5s;
+    transition-duration: 1.5s;
     display: table;
     height:300px;
 
@@ -105,6 +112,7 @@ body, html{
 #dishes .dish:hover > div {
 	opacity: 0.7;
 }
+
 
 
 .dish1{
