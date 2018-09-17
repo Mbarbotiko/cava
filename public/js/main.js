@@ -63,6 +63,16 @@ $(document).ready(function () {
   }
 
   // Media screen query for mobile users, loops through eight elements increments each time changing the div css and capturing scroll position in the window which triggers the css
+//add this event listener later for window changes
+// mq.addListener(function(changed) {
+//     if(changed.matches) {
+//         the width of browser is more then 700px
+//     } else {
+//         the width of browser is less then 700px
+//     }
+// });
+
+
   const mediaQuery = window.matchMedia('(max-width: 768px)');
   if (mediaQuery.matches) {
 

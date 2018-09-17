@@ -33,10 +33,19 @@ body, html{
 }
 
 #main-nav{
-    background-color:rgba(255, 255, 255, 0.5)!important;
+    background-color:rgba(5, 5, 5, 0.486)!important;
     position: absolute;
     z-index: 2;
     width:100%;
+}
+
+.nav-link{
+    color:white!important;
+    border-bottom:1px solid rgb(57, 196, 57);
+}
+
+.nav-link:hover{
+    color:rgb(57, 196, 57)!important;
 }
 
 #homepage-header h1{
@@ -45,21 +54,25 @@ body, html{
 .homepage-headline span{
     color:rgb(57, 196, 57);
 }
+
+
 .logo{
     width:150px;
    position:relative;
+   margin-top:25px;
+   left:0px;
 
 }
 
 .homepage-headline{
-    font-size:3.5vw;
+    font-size:7vw;
     font-size:6.5vh;
 }
 
 .homepageheader-subtext{
     margin:auto;
-    font-size:2vw;
-    font-size:2vh;
+    font-size:3vw;
+    font-size:3vh;
     width:75%;
     margin-top:5em;
 }
@@ -223,12 +236,17 @@ body, html{
 }
 
 .location{
-    padding-top:50px;
-    background-color:rgb(61, 36, 36);
+    padding-top:25px;
+    /* background-color:rgba(5, 5, 5); */
     color:white;
     text-align: center;
-    padding-bottom:50px;
+    padding-bottom:25px;
     clear: both;
+    background-image: linear-gradient(rgba(57,196, 57, 0.9), rgba(0,0,0,0.9)),url("../images/skyline.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    position:relative;
+    overflow: hidden;
     
 }
 
