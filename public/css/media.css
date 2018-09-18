@@ -38,16 +38,22 @@
 
     }
 
-    .ingredients{
-        font-size: 2vh;
+    .dishes-header{
+        font-size:3.5em;
+        margin-left:1em;
+        margin-right:1em
     
-        
     }
-
-    .ingredients span{
-        font-size: 2.5vh;
     
-        
+    .ingredients{
+        top:.75em;
+        font-size: 1.75em;
+
+    }
+    
+    .ingredients span{
+        font-size: 1.25em;
+
     }
 
     .reviews{
@@ -130,16 +136,23 @@ button.navbar-toggler{
 
     }
 
-    .ingredients{
-        font-size: 4vh;
+    .dishes-header{
+        top:.75em;
+        font-size:3.5em;
+        margin-left:1em;
+        margin-right:1em
     
-        
     }
-
-    .ingredients span{
-        font-size: 4.5vh;
     
-        
+    .ingredients{
+        top:2em;
+        font-size: 1.75em;
+
+    }
+    
+    .ingredients span{
+        font-size: 1.5em;
+
     }
 
     .reviews.left{
@@ -226,6 +239,25 @@ button.navbar-toggler{
 
     #dishes .dish>div{
         height:40rem;
+
+    }
+
+    .dishes-header{
+        top:.75em;
+        font-size:2.5em;
+        margin-left:1em;
+        margin-right:1em
+    
+    }
+    
+    .ingredients{
+        top:2em;
+        font-size: 1.5em;
+
+    }
+    
+    .ingredients span{
+        font-size: 1.25em;
 
     }
 

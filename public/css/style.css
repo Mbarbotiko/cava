@@ -81,19 +81,28 @@ body, html{
     position:relative;
     top:70%;
     left:5%;
-   
+    font-size:2.5em;
+    margin-left:.5em;
+    margin-right:1em
+
 }
 
 .ingredients{
     position:relative;
-    top:2vh;
-    font-size: 2vh;
+    top:.5em;
+    font-size: 1.25em;
     width:80%;
     text-align: center;
     left:10%;
-    
-    
+       
 }
+
+   .ingredients span{
+        font-size: 1.75em;
+    
+        
+    }
+
 
 #dishes .dish{
     width:25%;
