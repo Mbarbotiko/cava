@@ -1,0 +1,342 @@
+
+
+@media screen and (max-width: 1250px) and (min-width: 768px) {
+
+    .homepage-landing{
+
+        height:110vh;
+        width:100vw;
+
+    }
+
+    #homepage-header{
+        width: 70%;
+
+    }
+    .homepage-headline{
+        font-size:5vw;
+        font-size:6.5vh;
+        
+    }
+
+    .homepageheader-subtext{
+        margin-top:3em;
+        font-size:3.5vw;
+        font-size:3.5vh;
+    }
+    
+ 
+    #dishes .dish{
+        width:50%;
+        height:40rem;
+
+      
+    }
+
+    #dishes .dish>div{
+        height:40rem;
+
+    }
+
+    .dishes-header{
+        font-size:3.5em;
+        margin-left:1em;
+        margin-right:1em
+    
+    }
+    
+    .ingredients{
+        top:.75em;
+        font-size: 1.75em;
+
+    }
+    
+    .ingredients span{
+        font-size: 1.25em;
+
+    }
+
+    .reviews{
+        height:275px;
+    }
+
+  
+    #show-reviews{
+        height:275px;
+        width:90%;
+   
+    }
+
+    
+
+
+
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 450px) {
+
+    #main-nav{
+        background-color:rgba(5, 5, 5, 0.70)!important;
+ 
+    }
+    
+.nav-link{
+    color:white!important;
+    border-bottom:none;
+}
+
+.nav-link:hover{
+    color:rgb(57, 196, 57)!important;
+}
+button.navbar-toggler{
+    background-color:none;
+    border:solid 1px white!important;
+    
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(57,196,57, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
+}
+
+
+
+    .homepage-landing{
+
+        height:110vh;
+        width:100vw;
+
+    }
+    #homepage-header{
+        width: 90%;
+        top:20vh;
+
+    }
+    .homepage-headline{
+        font-size:7.5vw;
+        font-size:7.5vh;
+    }
+
+    .homepageheader-subtext{
+        margin-top:2vh;
+        font-size:3.5vw;
+        font-size:2.5vh;
+    }
+
+
+    #dishes .dish{
+        width:100%;
+        height:40rem;
+
+      
+    }
+
+    #dishes .dish>div{
+        height:40rem;
+
+    }
+
+    .dishes-header{
+        top:.75em;
+        font-size:3.5em;
+        margin-left:1em;
+        margin-right:1em
+    
+    }
+    
+    .ingredients{
+        top:2em;
+        font-size: 1.75em;
+
+    }
+    
+    .ingredients span{
+        font-size: 1.5em;
+
+    }
+
+    .reviews.left{
+        display: none;
+        width:0px;
+     }
+     .reviews.right{
+         width:100%;
+     }
+ 
+     .reviews{
+         height:250px;
+         width:100%;
+     }
+     #show-reviews{
+         height:250px;
+         width:100%;
+         left:0%;
+         text-align: center
+    
+     }
+ 
+
+
+}
+
+
+@media screen and (max-width: 450px) and (min-width: 0px) {
+
+    
+    .homepage-landing{
+        height:110vh;
+        width:100vw;
+
+    }
+
+    #homepage-header{
+        width: 90%;
+        top:20vh;
+
+    }
+    .homepage-headline{
+        font-size:7.5vw;
+        font-size:6vh;
+    }
+
+    .homepageheader-subtext{
+        margin-top:2vh;
+        font-size:3.5vw;
+        font-size:2.5vh;
+    }
+    
+    #main-nav{
+        background-color:rgba(5, 5, 5, 0.7)!important;
+ 
+    }
+    
+.nav-link{
+    color:white!important;
+    border-bottom:none;
+}
+
+.nav-link:hover{
+    color:rgb(57, 196, 57)!important;
+}
+
+button.navbar-toggler{
+    background-color:none;
+    border:solid 1px white!important;
+    
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(57,196,57, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
+}
+
+ 
+    #dishes .dish{
+        width:100%;
+        height:40rem;
+
+      
+    }
+
+    #dishes .dish>div{
+        height:40rem;
+
+    }
+
+    .dishes-header{
+        top:.75em;
+        font-size:2.5em;
+        margin-left:1em;
+        margin-right:1em
+    
+    }
+    
+    .ingredients{
+        top:2em;
+        font-size: 1.5em;
+
+    }
+    
+    .ingredients span{
+        font-size: 1.25em;
+
+    }
+
+
+    .reviews.left{
+       display: none;
+       width:0px;
+    }
+    .reviews.right{
+        width:100%;
+    }
+
+    .reviews{
+        height:375px;
+        width:100%;
+    }
+    #show-reviews{
+        height:375px;
+        width:100%;
+        left:0%;
+        text-align: center
+   
+    }
+
+} 
+
+
+@media screen and (max-width: 350px) and (min-width: 0px) {
+    .homepage-landing{
+
+        height:110vh;
+        width:100vw;
+
+    }
+
+    #homepage-header{
+        width: 90%;
+        top:16rem;
+
+    }
+    .homepage-headline{
+        font-size:7.5vw;
+        font-size:4.5vh;
+    }
+
+    .homepageheader-subtext{
+        margin-top:4em;
+        font-size:3.5vw;
+        font-size:2.5vh;
+    }
+
+
+    .reviews.left{
+        display: none;
+        width:0px;
+     }
+     .reviews.right{
+         width:100%;
+     }
+ 
+     .reviews{
+         height:425px;
+         width:100%;
+     }
+     #show-reviews{
+         height:425px;
+         width:100%;
+         left:0%;
+         text-align: center
+    
+     }
+
+     .logo{
+        width:120px;
+       position:relative;
+       margin-top:25px;
+       left:-40px;
+    
+    }
+
+
+}
