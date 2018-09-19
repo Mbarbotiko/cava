@@ -11,9 +11,9 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(".
 
 .homepage-landing{
     background-color:black;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/group-1.jpg");
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/group-1.jpg");
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/group-2.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/group-3.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/group-3.jpg"); */
     background-size:cover;
     background-position:center;
     position:relative;
@@ -24,63 +24,65 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(".
     z-index:1;
     height: 110vmin;
     overflow: hidden;
+}
+
+#first img{
+    opacity:1;
+    width: 110vw;
+    height:110vh;
+    position: absolute;
+    left:0;
+    top:0;
+    object-fit: cover;
+    
 
 }
 
-@keyframes landingtransition {
+
+@keyframes firstLandingtransition {
 	0% {
-        background-color:black;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/group-1.jpg");
+       
         opacity:1;
     }
     17% {
-        background-color:black;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/group-1.jpg");
+        
         opacity:1;
     }
-    25% {
-        background-color:black;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/group-1.jpg");
+  
+    52% {
+       
         opacity:0
     }
     92% {
-        background-color:black;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/group-1.jpg");
+      
         opacity:0
     }
     100% {
-        background-color:black;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/group-1.jpg");
+      
         opacity:1
     }
 
 }
 
-
-/* #landingtransition img:nth-of-type(1) {
-    animation-delay: 6s;
-  }
-  #landingtransition img:nth-of-type(2) {
-    animation-delay: 4s;
-  }
-  #landingtransition img:nth-of-type(3) {
-    animation-delay: 2s;
-  }
-  #landingtransition img:nth-of-type(4) {
-    animation-delay: 0;
-  } */
-
-.homepage-landing {
-	animation-name: landingtransition;
+#first {
+	animation-name: firstLandingtransition;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
     animation-duration: 10s;
-  
-   
+
 }
 
 
-
+#first img:nth-of-type(1) {
+    animation-delay: 4s;
+  }
+  #first img:nth-of-type(2) {
+    animation-delay: 4s;
+  }
+  #first img:nth-of-type(3) {
+    animation-delay: 4s;
+  }
+ 
 
 #homepage-header{
     width: 40%;
