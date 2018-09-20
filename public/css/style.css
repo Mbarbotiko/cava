@@ -2,18 +2,10 @@ body, html{
     margin-top:-10px;
     font-family: 'Julius Sans One', sans-serif;
 }
-/* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/group-2.jpg");
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/group-3.jpg"); */
-
-
- /* OK tired but what needs to happen is put these images in HTML resize as needed then use nth to transition between images with  an animation delay so when one fades out another is then showing in a loop remove images from being background images without disturbing text. */
 
 
 .homepage-landing{
     background-color:black;
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/group-1.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/group-2.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/group-3.jpg"); */
     background-size:cover;
     background-position:center;
     position:relative;
@@ -26,63 +18,68 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(".
     overflow: hidden;
 }
 
-#first img{
-    opacity:1;
+.homepage-landing img{
     width: 110vw;
     height:110vh;
     position: absolute;
     left:0;
     top:0;
     object-fit: cover;
-    
 
 }
 
+#blackoverlay{
+    background: black;
+    opacity:.5;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: -1;
+    display: table;
+    width: 110vw;
+    height:110vh;
+
+}
 
 @keyframes firstLandingtransition {
 	0% {
        
-        opacity:1;
+        opacity:0;
     }
-    17% {
+    40% {
         
         opacity:1;
     }
   
-    52% {
+    90% {
        
-        opacity:0
-    }
-    92% {
-      
         opacity:0
     }
     100% {
       
-        opacity:1
+        opacity:.0
     }
+
 
 }
 
-#first {
+/* #first .top{
 	animation-name: firstLandingtransition;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
     animation-duration: 10s;
 
+
+} */
+
+
+.homepage-landing .bottom{
+	animation-name: firstLandingtransition;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+    animation-duration: 15s;
+
 }
-
-
-#first img:nth-of-type(1) {
-    animation-delay: 4s;
-  }
-  #first img:nth-of-type(2) {
-    animation-delay: 4s;
-  }
-  #first img:nth-of-type(3) {
-    animation-delay: 4s;
-  }
- 
 
 #homepage-header{
     width: 40%;
