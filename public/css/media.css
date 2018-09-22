@@ -76,11 +76,7 @@
 
 @media screen and (max-width: 768px) and (min-width: 450px) {
 
-    #main-nav{
-        background-color:rgba(5, 5, 5, 0.70)!important;
- 
-    }
-    
+
 .nav-link{
     color:white!important;
     border-bottom:none;
@@ -109,7 +105,6 @@ button.navbar-toggler{
     }
     #homepage-header{
         width: 90%;
-        top:20vh;
 
     }
     .homepage-headline{
@@ -184,14 +179,19 @@ button.navbar-toggler{
 
     
     .homepage-landing{
-        height:110vh;
+        height:120vh;
         width:100vw;
 
     }
 
+    .homepage-landing img{
+        height:120vh; 
+    }
+
+
     #homepage-header{
         width: 90%;
-        top:20vh;
+
 
     }
     .homepage-headline{
@@ -232,13 +232,13 @@ button.navbar-toggler{
  
     #dishes .dish{
         width:100%;
-        height:40rem;
+        height:350px;
 
       
     }
 
     #dishes .dish>div{
-        height:40rem;
+        height:350px;
 
     }
 
