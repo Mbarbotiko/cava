@@ -29,6 +29,8 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
 
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/adminstyle.css">
+
     <link rel="stylesheet" type="text/css" media="screen" href="./css/media.css">
 
 
@@ -72,35 +74,88 @@
         </div>
     </nav>
 
-    <form id='application'>
+    <form id='dish-form'>
+        <h1>Regular Dishes</h1>
         <div class="form-group">
-          <label for="formGroupExampleInput">Example label</label>
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+            <label for="formGroupExampleInput">Name</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Dish Name">
         </div>
         <div class="form-group">
-          <label for="formGroupExampleInput2">Another label</label>
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+            <label for="formGroupExampleInput2">Description</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter Dish Description">
+            <button class='add-dishes' id='dish-submit'>Add Dish</button>
         </div>
-        <div class="form-group">
-            <label for="formGroupExampleInput2">Another label</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-          </div>
-          <div class="form-group">
-            <label for="formGroupExampleInput2">Another label</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-          </div>
-      </form>
+
+
+        <form id='feature-dishform'>
+            <h1>Feature Dishes</h1>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Dish Name">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Description</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter Dish Description">
+            </div>
+            <form action="/action_page.php">
+                <input type="file" name="pic" accept="image/*">
+                <input type="submit">
+                <button class='add-dishes' id='feature-submit'>Add Feature Dish</button>
+            </form>
+
+            <form id='appetizer-form'>
+                    <h1>Appetizer Dishes</h1>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Dish Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Description</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter Dish Description">
+                        <button class='add-dishes' id='appetizer-submit'>Add Appetizer</button>
+                    </div>
+
+                    <form id='feature-appetizers'>
+                            <h1>Feature Appetizers</h1>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput">Name</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Dish Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput2">Description</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter Dish Description">
+                            </div>
+                            <form action="/action_page.php">
+                                <input type="file" name="pic" accept="image/*">
+                                <input type="submit">
+                                <button class='add-dishes' id='featureapp-submit'>Add Feature App</button>
+                            </form>
+
+                            <form id='drink-form'>
+                                    <h1>Drinks</h1>
+                                    <div class="form-group">
+                                        <label for="formGroupExampleInput">Name</label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Dish Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="formGroupExampleInput2">Description</label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter Dish Description">
+                                        <button class='add-dishes' id='drink-submit'>Add Drink</button>
+                                    </div>
 
 
 
-    <div class="location">
-        <h1>Location</h1>
-        <h5> We are located on 1500 Minneapolis BLVD
-            <br> Minneapolis
-            <br> Minnesota 55403</h5>
-    </div>
+            <div class='admindishcards'>
 
-    <script src="./js/main.js"></script>
+            </div>
+            <div class="location">
+                <h1>Location</h1>
+                <h5> We are located on 1500 Minneapolis BLVD
+                    <br> Minneapolis
+                    <br> Minnesota 55403</h5>
+            </div>
+
+            <script src="./js/dishadmin.js"></script>
 </body>
 
 </html>
