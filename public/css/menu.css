@@ -1,0 +1,28 @@
+.menu-drinks, .menu-appetizers, .menu-entree {
+  background-color: black;
+  padding-bottom: 100px;
+}
+
+body, html {
+  font-family: "Julius Sans One", "sans-serif";
+  color: #39c439;
+}
+
+.entreeBG-image {
+  background-image: url("../images/burger.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 50vh;
+}
+
+#main-header {
+  font-size: 40pt;
+}
+
+.menu-header {
+  font-size: 20pt;
+}
+
+/*# sourceMappingURL=menu.css.map */

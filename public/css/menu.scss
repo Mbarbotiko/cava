@@ -1,0 +1,61 @@
+$font-style: 'Julius Sans One', 'sans-serif';
+$primary-color: rgb(57, 196, 57);
+$background: black;
+$menu-header: 20pt;
+
+
+// sass --watch menu.scss menu.css
+
+%section-shared{
+    background-color:$background;
+    padding-bottom: 100px;
+}
+
+// @mixin menu-radius($radius){
+//     -webkit-transform: $radius;
+//     -ms-transform: $radius;
+//     transform: $radius;
+// }
+
+//   .for sections later { 
+//       @include menu-radius(rotate(30deg)); 
+//     }
+
+
+
+body, html{
+    font-family:$font-style;
+    color:$primary-color;
+   
+}
+
+.entreeBG-image{
+    background-image:url('../images/burger.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    height:50vh;
+
+}
+
+#main-header{
+    font-size: 40pt;
+}
+
+.menu-header{
+    font-size: $menu-header;
+}
+
+.menu-entree{
+    @extend %section-shared;
+}
+
+.menu-appetizers{
+    @extend %section-shared;
+}
+
+.menu-drinks{
+    @extend %section-shared;
+}
+
