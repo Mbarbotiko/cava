@@ -9,6 +9,11 @@ $menu-header: 20pt;
 %section-shared{
     background-color:$background;
     padding-bottom: 100px;
+    // border-top-left-radius:50%;
+    // border-top-right-radius:50%;
+    // margin-top:-10px;
+    // z-index: 5;
+    // overflow: hidden;
 }
 
 // @mixin menu-radius($radius){
@@ -36,6 +41,22 @@ body, html{
     background-position:center;
     position:relative;
     height:50vh;
+        border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    background-color:$background;
+
+}
+
+.overlay{
+    height:50vh;
+    background-color:$background;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: -1;
+    display: table;
+    width: 110vw;
+    height:110vh;
 
 }
 
@@ -59,3 +80,24 @@ body, html{
     @extend %section-shared;
 }
 
+th{
+    font-size:16pt;
+
+    background-color:rgb(111, 0, 255);
+    width:100%;
+}
+
+td{
+    font-size:14pt;
+    background-color:rgb(255, 0, 212);
+    width:100%;
+}
+
+// set up table css in a partial and import it
+tr{
+   width:100%;
+   background-color:red;
+   text-align: left;
+}
+
+@import 'footer';
