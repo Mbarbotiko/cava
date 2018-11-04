@@ -1,7 +1,8 @@
 $font-style: 'Julius Sans One', 'sans-serif';
 $primary-color: rgb(57, 196, 57);
+$seconday-color:white;
 $background: black;
-$menu-header: 20pt;
+$menu-header: 30pt;
 
 
 // sass --watch menu.scss menu.css
@@ -66,12 +67,29 @@ body, html{
 }
 
 #main-header{
-    font-size: 40pt;
+    font-size: 80pt;
+    text-shadow: -4px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    color: $seconday-color;
+    position: absolute;
+    left:(64%/2);
+    z-index:2;
+    font-family: 'Great Vibes', cursive;
+    top:50px;
+
 }
 
-.menu-header{
-    font-size: $menu-header;
+span{
+    color:$primary-color;
 }
+.menu-header{
+    position: relative;
+    font-size: $menu-header;
+    text-align: center;
+    bottom:40px;
+    font-family: 'Great Vibes', cursive;
+
+}
+
 
 .menu-appetizers{
     @extend %section-shared;
@@ -87,24 +105,25 @@ body, html{
     @extend %section-shared;
 }
 
+
 th{
     font-size:16pt;
-
-    background-color:rgb(111, 0, 255);
-    width:100%;
+    width:45%;
 }
 
 td{
-    font-size:14pt;
-    background-color:rgb(255, 0, 212);
-    width:100%;
+    color:$seconday-color;
+    font-size:12pt;
+
+
 }
 
 // set up table css in a partial and import it
-tr{
-   width:100%;
-   background-color:red;
-   text-align: left;
+
+table{
+    border-collapse: separate;
+    border-spacing: 100px 25px ;
+    text-align: left;   
 }
 
 @import 'footer';
