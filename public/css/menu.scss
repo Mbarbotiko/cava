@@ -9,11 +9,17 @@ $menu-header: 20pt;
 %section-shared{
     background-color:$background;
     padding-bottom: 100px;
-    // border-top-left-radius:50%;
-    // border-top-right-radius:50%;
-    // margin-top:-10px;
-    // z-index: 5;
-    // overflow: hidden;
+}
+
+%backgroundImg{
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    height:50vh;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    background-color:$background;
 }
 
 // @mixin menu-radius($radius){
@@ -34,17 +40,17 @@ body, html{
    
 }
 
-.entreeBG-image{
+.bg-appetizer{
+    background-image:url('../images/appetizer.jpg');
+    @extend %backgroundImg;
+}
+.bg-entree{
     background-image:url('../images/burger.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    position:relative;
-    height:50vh;
-        border-bottom-left-radius:50%;
-    border-bottom-right-radius:50%;
-    background-color:$background;
-
+    @extend %backgroundImg;
+}
+.bg-drinks{
+    background-image:url('../images/drinks.jpg');
+    @extend %backgroundImg;
 }
 
 .overlay{
@@ -56,8 +62,6 @@ body, html{
     z-index: -1;
     display: table;
     width: 110vw;
-    height:110vh;
-
 }
 
 #main-header{
@@ -68,13 +72,15 @@ body, html{
     font-size: $menu-header;
 }
 
+.menu-appetizers{
+    @extend %section-shared;
+}
+
+
 .menu-entree{
     @extend %section-shared;
 }
 
-.menu-appetizers{
-    @extend %section-shared;
-}
 
 .menu-drinks{
     @extend %section-shared;

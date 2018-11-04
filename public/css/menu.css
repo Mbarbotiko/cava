@@ -1,15 +1,9 @@
-.menu-drinks, .menu-appetizers, .menu-entree {
+.menu-drinks, .menu-entree, .menu-appetizers {
   background-color: black;
   padding-bottom: 100px;
 }
 
-body, html {
-  font-family: "Julius Sans One", "sans-serif";
-  color: #39c439;
-}
-
-.entreeBG-image {
-  background-image: url("../images/burger.jpg");
+.bg-drinks, .bg-entree, .bg-appetizer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -18,6 +12,23 @@ body, html {
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   background-color: black;
+}
+
+body, html {
+  font-family: "Julius Sans One", "sans-serif";
+  color: #39c439;
+}
+
+.bg-appetizer {
+  background-image: url("../images/appetizer.jpg");
+}
+
+.bg-entree {
+  background-image: url("../images/burger.jpg");
+}
+
+.bg-drinks {
+  background-image: url("../images/drinks.jpg");
 }
 
 .overlay {
@@ -29,7 +40,6 @@ body, html {
   z-index: -1;
   display: table;
   width: 110vw;
-  height: 110vh;
 }
 
 #main-header {
