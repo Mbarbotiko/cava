@@ -17,8 +17,7 @@ $menu-header: 20pt;
     background-position:center;
     position:relative;
     height:50vh;
-    border-bottom-left-radius:50%;
-    border-bottom-right-radius:50%;
+    z-index: -1;
     background-color:$background;
 }
 
@@ -43,6 +42,7 @@ body, html{
 .bg-appetizer{
     background-image:url('../images/appetizer.jpg');
     @extend %backgroundImg;
+
 }
 .bg-entree{
     background-image:url('../images/burger.jpg');
@@ -57,11 +57,12 @@ body, html{
     height:50vh;
     background-color:$background;
     position: absolute;
-    left:0;
-    top:0;
-    z-index: -1;
+    right:-30%;
+    top:85%;
     display: table;
-    width: 110vw;
+    width:160%;
+    border-top-left-radius:100%;
+    border-top-right-radius:100%;
 }
 
 #main-header{
