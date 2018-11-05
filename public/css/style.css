@@ -103,14 +103,21 @@ body, html{
   
 }
 
-.nav-item{
+/* .nav-item{
    position: relative;
    left:60%;
   
-}
+} */
+
+
 
 .nav-item span{
     color:white;
+}
+
+.navbar-toggler{
+    position: relative;
+    right:55%;
 }
 
 
@@ -198,8 +205,6 @@ body, html{
     opacity: .5;
 
 }
-
-
 
 .dishes-header{
     position:relative;

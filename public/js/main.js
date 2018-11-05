@@ -2,7 +2,7 @@ $(document).ready(function () {
   checkSize()
 window.addEventListener('resize', checkSize);
 function checkSize(){
-  console.log(checkSize);
+  // console.log(checkSize);
 }
 
 const mediaQuery = window.matchMedia('(max-width: 768px)');

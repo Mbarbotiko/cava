@@ -39,15 +39,24 @@
     }
 
     .dishes-header{
-        font-size:3.5em;
-        margin-left:1em;
-        margin-right:1em
+        position:relative;
+        font-size:2.5em;
+        margin:auto 0;
+        text-align: center;
+        top:1em;
+    
     
     }
     
     .ingredients{
-        top:.75em;
-        font-size: 1.75em;
+        width:80%;
+        position:relative;
+        font-size:1.5em;
+        margin:auto 0;
+        text-align: center;
+        margin-left:10%;
+        top:3.5em;
+           
 
     }
     
@@ -66,6 +75,28 @@
         width:90%;
    
     }
+
+    .left .logo{
+        left:15%;
+        top:0px;
+    }
+
+    .strike.left{
+        left:10%;
+    
+    }
+    
+    .strike.right{
+    
+        right:-10%;
+      
+    }
+    
+    .strike{
+        width:80%;
+    
+    }
+     
 
     
 
@@ -121,18 +152,18 @@ button.navbar-toggler{
 
     #dishes .dish{
         width:100%;
-        height:40rem;
+        height:60rem;
 
       
     }
 
     #dishes .dish>div{
-        height:40rem;
+        height:60rem;
 
     }
 
     .dishes-header{
-        top:.75em;
+        top:1.5em;
         font-size:3.5em;
         margin-left:1em;
         margin-right:1em
@@ -140,7 +171,9 @@ button.navbar-toggler{
     }
     
     .ingredients{
-        top:2em;
+        width:80%;
+        margin-left:10%;
+        top:5em;
         font-size: 1.75em;
 
     }
@@ -169,6 +202,23 @@ button.navbar-toggler{
          text-align: center
     
      }
+
+     
+.strike.left{
+    left:10%;
+
+}
+
+.strike.right{
+
+    right:-10%;
+  
+}
+
+.strike{
+    width:80%;
+
+}
  
 
 
@@ -210,54 +260,54 @@ button.navbar-toggler{
  
     }
     
-.nav-link{
-    color:white!important;
-    border-bottom:none;
-}
+    .nav-link{
+        color:white!important;
+        border-bottom:none;
+    } 
 
-.nav-link:hover{
-    color:rgb(57, 196, 57)!important;
-}
+    .nav-link:hover{
+        color:rgb(57, 196, 57)!important;
+    }
 
-button.navbar-toggler{
-    background-color:none;
-    border:solid 1px white!important;
+    button.navbar-toggler{
+        background-color:none;
+        border:solid 1px white!important;
     
-}
+    }
 
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(57,196,57, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
-}
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(57,196,57, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
+    }
 
  
+    
     #dishes .dish{
         width:100%;
-        height:350px;
+        height:60rem;
 
       
     }
 
     #dishes .dish>div{
-        height:350px;
+        height:60rem;
 
     }
 
     .dishes-header{
-        top:.75em;
-        font-size:2.5em;
-        margin-left:1em;
-        margin-right:1em
-    
+        top:2.0em;
+        font-size:3.5em;
     }
     
     .ingredients{
-        top:2em;
-        font-size: 1.5em;
+        width:80%;
+        margin-left:10%;
+        top:6em;
+        font-size: 1.75em;
 
     }
     
     .ingredients span{
-        font-size: 1.25em;
+        font-size: 1.5em;
 
     }
 
@@ -280,6 +330,21 @@ button.navbar-toggler{
         left:0%;
         text-align: center
    
+    }
+    .strike.left{
+        left:10%;
+    
+    }
+    
+    .strike.right{
+        right:-10%;
+      
+    }
+    
+    .strike{
+        width:80%;
+        top:-65%;
+    
     }
 
 } 
@@ -330,13 +395,66 @@ button.navbar-toggler{
     
      }
 
-     .logo{
+     #dishes .dish{
+        width:100%;
+        height:60rem;
+
+      
+    }
+
+    #dishes .dish>div{
+        height:60rem;
+
+    }
+
+    .dishes-header{
+        top:1.5em;
+        font-size:2.5em;
+    
+    }
+    
+    .ingredients{
+        width:80%;
+        margin-left:10%;
+        top:6em;
+        font-size: 1.5em;
+
+    }
+    
+    .ingredients span{
+        font-size: 1.25em;
+
+    }
+
+     .strike.left{
+        left:10%;
+    
+    }
+    
+    .strike.right{
+        right:-10%;
+      
+    }
+    
+    .strike{
+        width:80%;
+        top:-25px;
+    
+    }
+
+    .feature{
+        font-size:16pt;
+    }
+
+
+
+     /* .logo{
         width:120px;
        position:relative;
        margin-top:25px;
        left:-40px;
     
-    }
+    } */
 
 
 }
