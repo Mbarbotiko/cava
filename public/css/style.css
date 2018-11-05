@@ -3,6 +3,11 @@ body, html{
     font-family: 'Julius Sans One', sans-serif;
 }
 
+.navbar-toggler{
+    position: absolute;
+    right:10%;
+    top:50%;   
+}
 
 .homepage-landing{
     background-color:black;
@@ -103,23 +108,9 @@ body, html{
   
 }
 
-/* .nav-item{
-   position: relative;
-   left:60%;
-  
-} */
-
-
-
 .nav-item span{
     color:white;
 }
-
-/* .navbar-toggler{
-    position: fixed;
-    right:55%;
-} */
-
 
 .nav-link{
     color:white!important;
