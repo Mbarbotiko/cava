@@ -98,11 +98,26 @@ body, html{
     position: absolute;
     z-index: 2;
     width:100%;
+    letter-spacing: 10px;
+    height:20vh;
+  
 }
+
+.nav-item{
+   position: relative;
+   left:60%;
+  
+}
+
+.nav-item span{
+    color:white;
+}
+
 
 .nav-link{
     color:white!important;
     border-bottom:1px solid rgb(57, 196, 57);
+    
 }
 
 .nav-link:hover{
@@ -118,7 +133,7 @@ body, html{
 
 
 .logo{
-    width:150px;
+    width:250px;
    position:relative;
    margin-top:25px;
    left:0px;
@@ -139,52 +154,46 @@ body, html{
 }
 
 .feature.left{
-    background-color:white;
+    background-color:rgba(255, 255, 255);
     color:black;
     width:50%;
     float:left;
-   
-    
 
 }
 
 .feature.right{
-    background-color:black;
+    background-color:rgba(0,0,0);
     color:white;
     width:50%;
-    float:left;
-
-    
+    float:left;    
 }
 
 .feature{
     text-align: center;
     height:1.5em;
-    font-size:4em;
+    font-size:2.5em;
     position: relative;
     z-index:2;
 }
 
 .strike.left{
+    left:200px;
+
+}
+
+.strike.right{
+
+    right:-200px;
+  
+}
+
+.strike{
     border-top:2px rgb(52, 231, 112) solid;
     width:50%;
     height:200px;
     float:left;
     position:relative;
-    top:-50px;
-    left:200px;
-    z-index:-1;
-    opacity: .5;
-}
-
-.strike.right{
-    border-top:2px rgb(52, 231, 112) solid;
-    width:50%;
-    height:200px;
-    position: relative;
-    float: left;
-    top:-50px;
-    right:-200px;
+    top:-35px;
     z-index:-1;
     opacity: .5;
 
@@ -194,28 +203,24 @@ body, html{
 
 .dishes-header{
     position:relative;
-    top:70%;
-    left:5%;
     font-size:2.5em;
-    margin-left:.5em;
-    margin-right:1em
+    margin:auto 0;
+    text-align: center;
+    top:1em;
 
 }
 
 .ingredients{
     position:relative;
-    top:.5em;
-    font-size: 1.25em;
-    width:80%;
+    font-size:1.5em;
+    margin:auto 0;
     text-align: center;
-    left:10%;
+    top:2em;
        
 }
 
    .ingredients span{
         font-size: 1.75em;
-    
-        
     }
 
 
@@ -243,6 +248,7 @@ body, html{
     transition-duration: 1.5s;
     display: table;
     height:300px;
+    border: white solid 1.5px;
 
 }
 
@@ -256,6 +262,7 @@ body, html{
 .dish1{
     background-image:url("../images/dish1.jpg");
     width:25%;
+    border:solid white 1.5px;
 }
 
 
@@ -263,37 +270,47 @@ body, html{
 .dish2{
     background-image:url("../images/dish2.jpg");
     width:25%;
+    border:solid white 1.5px;
 }
 
 .dish3{
 
     background-image:url("../images/dish3.jpg");
     width:25%;
+    border:solid white 1.5px;
 }
 
 .dish4{
     background-image:url("../images/dish4.jpg");
     width:25%;
+    border:solid white 1.5px;
 }
 
 .dish5{
     background-image:url("../images/dish5.jpg");
     width:25%;
+    border:solid white 1.5px;
+    
 }
 
 .dish6{
     background-image:url("../images/dish6.jpg");
     width:25%;
+    border:solid white 1.5px;
+   
 }
 
 .dish7{
     background-image:url("../images/dish7.jpg");
     width:25%;
+    border:solid white 1.5px;
 }
 
 .dish8{
     background-image:url("../images/dish8.jpg");
     width:25%;
+    
+ 
 
 }
 
@@ -303,6 +320,7 @@ body, html{
 #dishes .dish:nth-child(8n+7)>div{
     background: white;
     color:black;
+    border: black solid 1.5px;
 }
 
 .reviews.left{
@@ -311,7 +329,7 @@ body, html{
 
 .left .logo{
     left:50%;
-    top:50px;
+    top:0px;
 }
 
 .reviews.right{

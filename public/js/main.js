@@ -1,34 +1,42 @@
 $(document).ready(function () {
+  checkSize()
+window.addEventListener('resize', checkSize);
+function checkSize(){
+  console.log(checkSize);
+}
 
+const mediaQuery = window.matchMedia('(max-width: 768px)');
+if (mediaQuery.matches) {
 
+  function offset(el) {
+    const rect = el.getBoundingClientRect(),
+      scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+      scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+  }
 
-  //Onclick nav "Location" & "Reviews" using JQuery animate method to set hash in html to scroll to the set window location in 2 seconds.
-  $(".loc").on('click', function () {
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = $('.location');
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 2000, function () {
-        window.location.hash = hash;
-      });
+  $(window).scroll(function () {
+    var scroll_pos = 0;
+    var number = 0
+    var dish = '.dish'
+    var div = ' div'
+    scroll_pos = $(this).scrollTop();
+    for (var i = 1; i < 9; i++) {
+      number++
+      const element = document.querySelector(dish + number);
+      const elementOffset = offset(element)
+      if (scroll_pos > elementOffset.top - 50) {
+        $(dish + number + div).css('opacity', '.7');
+      }
+      else {
+        $(dish + number + div).css('opacity', '.0');
+      }
     }
   });
 
+}
 
-  $(".rev").on('click', function () {
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = $('#show-reviews');
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 2000, function () {
-        window.location.hash = hash;
-      });
-    }
-  });
-
-  //create a constructor for reviews
+  //Create a constructor for reviews
 
   function Review(header, comment) {
     this.header = header;
@@ -73,36 +81,8 @@ $(document).ready(function () {
 // });
 
 
-  const mediaQuery = window.matchMedia('(max-width: 768px)');
-  if (mediaQuery.matches) {
 
-    function offset(el) {
-      const rect = el.getBoundingClientRect(),
-        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
-        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
-    }
 
-    $(window).scroll(function () {
-      var scroll_pos = 0;
-      var number = 0
-      var dish = '.dish'
-      var div = ' div'
-      scroll_pos = $(this).scrollTop();
-      for (var i = 1; i < 9; i++) {
-        number++
-        const element = document.querySelector(dish + number);
-        const elementOffset = offset(element)
-        if (scroll_pos > elementOffset.top - 50) {
-          $(dish + number + div).css('opacity', '.7');
-        }
-        else {
-          $(dish + number + div).css('opacity', '.0');
-        }
-      }
-    });
-
-  }
 });
 
 
