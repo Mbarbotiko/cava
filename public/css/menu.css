@@ -67,18 +67,26 @@ span {
 
 th {
   font-size: 16pt;
-  width: 45%;
+  width: 50%;
 }
 
 td {
   color: white;
   font-size: 12pt;
+  width: 50%;
+}
+
+p {
+  color: white;
+  font-size: 12pt;
+  font-weight: lighter;
 }
 
 table {
   border-collapse: separate;
   border-spacing: 100px 25px;
   text-align: left;
+  columns: 2;
 }
 
 footer {

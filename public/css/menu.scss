@@ -108,14 +108,23 @@ span{
 
 th{
     font-size:16pt;
-    width:45%;
+    width:50%;
+    
 }
 
 td{
     color:$seconday-color;
     font-size:12pt;
+    width:50%;
+
+   
+}
 
 
+p{
+    color:$seconday-color;
+    font-size:12pt;
+    font-weight: lighter;
 }
 
 // set up table css in a partial and import it
@@ -124,6 +133,7 @@ table{
     border-collapse: separate;
     border-spacing: 100px 25px ;
     text-align: left;   
+    columns: 2;
 }
 
 @import 'footer';
