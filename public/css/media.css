@@ -204,21 +204,25 @@ button.navbar-toggler{
      }
 
      
-.strike.left{
-    left:10%;
+     .strike.left{
+        left:10%;
 
-}
+    }
 
-.strike.right{
+    .strike.right{
+        right:-10%;
+    }
 
-    right:-10%;
-  
-}
+    .strike{
+        width:80%;
+    }
+    .nav-item span{
+        display: none;
+    }
 
-.strike{
-    width:80%;
-
-}
+    #main-nav{
+        letter-spacing: 0px;
+    }
  
 
 
@@ -346,6 +350,13 @@ button.navbar-toggler{
         top:-65%;
     
     }
+    .nav-item span{
+        display: none;
+    }
+
+    #main-nav{
+        letter-spacing: 0px;
+    }
 
 } 
 
@@ -444,6 +455,13 @@ button.navbar-toggler{
 
     .feature{
         font-size:16pt;
+    }
+    .nav-item span{
+        display: none;
+    }
+
+    #main-nav{
+        letter-spacing: 0px;
     }
 
 
