@@ -238,6 +238,60 @@
 
 
 @media screen and (max-width: 450px) and (min-width: 0px) {
+    .dish1{
+        background-image:url("../images/mediadish1.jpg");
+        width:25%;
+        border:solid white 1.5px;
+    }
+    
+    
+    
+    .dish2{
+        background-image:url("../images/mediadish2.jpg");
+        width:25%;
+        border:solid white 1.5px;
+    }
+    
+    .dish3{
+    
+        background-image:url("../images/mediadish3.jpg");
+        width:25%;
+        border:solid white 1.5px;
+    }
+    
+    .dish4{
+        background-image:url("../images/mediadish4.jpg");
+        width:25%;
+        border:solid white 1.5px;
+    }
+    
+    .dish5{
+        background-image:url("../images/mediadish5.jpg");
+        width:25%;
+        border:solid white 1.5px;
+        
+    }
+    
+    .dish6{
+        background-image:url("../images/mediadish6.jpg");
+        width:25%;
+        border:solid white 1.5px;
+       
+    }
+    
+    .dish7{
+        background-image:url("../images/mediadish7.jpg");
+        width:25%;
+        border:solid white 1.5px;
+    }
+    
+    .dish8{
+        background-image:url("../images/mediadish8.jpg");
+        width:25%;
+        
+     
+    
+    }
 
    
 
