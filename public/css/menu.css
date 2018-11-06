@@ -102,4 +102,36 @@ footer {
   overflow: hidden;
 }
 
+@media screen and (max-width: 1250px) and (min-width: 768px) {
+  #main-header {
+    font-size: 60pt;
+    left: 32%;
+  }
+
+  table {
+    border-spacing: 50px 25px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 350px) {
+  #main-header {
+    font-size: 45pt;
+    left: 27%;
+  }
+
+  table {
+    border-spacing: 50px 25px;
+  }
+}
+@media screen and (max-width: 349px) and (min-width: 0px) {
+  #main-header {
+    top: 30%;
+    font-size: 40pt;
+    left: 10%;
+  }
+
+  table {
+    border-spacing: 20px 25px;
+  }
+}
+
 /*# sourceMappingURL=menu.css.map */
