@@ -107,20 +107,39 @@ body, html{
 
 }
 
-.mr-auto{
-    margin-top:25px;
-    /* margin-left:25%; */
+/* .mr-auto{
+   display:block;
+   width: 50%;
+   text-align: center;
+   margin:auto 0;
+  
 }
+
+.nav-item{
+
+} */
 
 
 .nav-item span{
     color:white;
+    
 }
+
+/* .navbar-nav{
+    margin-top:3vh;
+
+} */
+
+.bg-light{
+    padding-top:4vh;
+}
+
+
 
 .nav-link{
     color:white!important;
-    border-bottom:1px solid rgb(57, 196, 57);
-    
+    border-bottom:1px solid rgb(57, 196, 57);   
+
 }
 
 .nav-link:hover{
@@ -180,13 +199,13 @@ body, html{
 }
 
 .strike.left{
-    left:200px;
+    left:25%;
 
 }
 
 .strike.right{
 
-    right:-200px;
+    right:-25%;
   
 }
 
