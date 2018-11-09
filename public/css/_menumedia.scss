@@ -1,5 +1,25 @@
-@media screen and (max-width: 1250px) and (min-width: 768px) {
+@media screen and (max-width: 1500px) and (min-width: 1251px) {
 
+
+
+    .bg-menu p{
+        margin-top:20%;
+        }
+
+        #mainMenu-letter{
+            font-size:$mainMenu-header/1.1;
+        }
+        
+        #mainMenu-letter2{
+            font-size:$mainMenu-header/1.1;
+        }
+        
+        #brackets{
+            font-size: $mainMenu-header/1.1;
+        }
+}
+
+@media screen and (max-width: 1250px) and (min-width: 768px) {
 
 
     table{
@@ -13,8 +33,25 @@
         padding-bottom: 500px;
     }
 
-    
+    .bg-menu p{
+        margin-top:20%;
+        }
+
+        #mainMenu-letter{
+            font-size:$mainMenu-header/1.5;
+        }
+        
+        #mainMenu-letter2{
+            font-size:$mainMenu-header/1.5;
+        }
+        
+        #brackets{
+            font-size: $mainMenu-header/1.5;
+        }
 }
+
+    
+
 
 @media screen and (max-width: 768px) and (min-width: 450px) {
    
