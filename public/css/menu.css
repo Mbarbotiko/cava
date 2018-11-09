@@ -1,6 +1,6 @@
 .menu-drinks, .menu-entree, .menu-appetizers {
   background-color: black;
-  padding-bottom: 100px;
+  padding-bottom: 33%;
 }
 
 .bg-drinks, .bg-entree, .bg-appetizer {
@@ -82,13 +82,12 @@ span {
 
 th {
   font-size: 16pt;
-  width: 50%;
+  width: 100%;
 }
 
 td {
   color: white;
   font-size: 12pt;
-  width: 50%;
 }
 
 p {
@@ -99,9 +98,11 @@ p {
 
 table {
   border-collapse: separate;
-  border-spacing: 100px 25px;
+  border-spacing: 50px 25px;
   text-align: left;
-  columns: 2;
+  width: 50%;
+  background-color: red;
+  float: left;
 }
 
 footer {
@@ -120,6 +121,11 @@ footer {
 @media screen and (max-width: 1250px) and (min-width: 768px) {
   table {
     border-spacing: 50px 25px;
+  }
+
+  .menu-appetizers, .menu-entree, .menu-drinks {
+    background-color: black;
+    padding-bottom: 500px;
   }
 }
 @media screen and (max-width: 768px) and (min-width: 450px) {
@@ -142,6 +148,15 @@ footer {
 
   #brackets {
     font-size: 58.6666666667pt;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .menu-appetizers, .menu-entree, .menu-drinks {
+    background-color: black;
+    padding-bottom: 850px;
   }
 }
 @media screen and (max-width: 449px) and (min-width: 0px) {
@@ -172,6 +187,15 @@ footer {
 
   span {
     font-size: 35pt;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .menu-appetizers, .menu-entree, .menu-drinks {
+    background-color: black;
+    padding-bottom: 1000px;
   }
 }
 

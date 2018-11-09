@@ -7,6 +7,11 @@
    
     }
 
+    %section-shared{
+        background-color:$background;
+        padding-bottom: 500px;
+    }
+
     
 }
 
@@ -35,6 +40,17 @@
     #brackets{
         font-size: $mainMenu-header/1.5;
     }
+
+    table{
+
+        width:100%;
+   
+    }
+    %section-shared{
+        background-color:$background;
+        padding-bottom: 850px;
+    }
+
 
 
 
@@ -77,6 +93,18 @@
     span{
         font-size: $menu-header+5;
     }
+
+    table{
+
+        width:100%;
+   
+    }
+    %section-shared{
+        background-color:$background;
+        padding-bottom: 1000px;
+    }
+
+
 
 
 }

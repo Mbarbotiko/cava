@@ -10,7 +10,7 @@ $mainMenu-header: 88pt;
 
 %section-shared{
     background-color:$background;
-    padding-bottom: 100px;
+    padding-bottom: 33%;
 }
 
 %backgroundImg{
@@ -120,40 +120,8 @@ span{
 .menu-drinks{
     @extend %section-shared;
 }
-
-
-th{
-    font-size:16pt;
-    width:50%;
-    
-}
-
-td{
-    color:$seconday-color;
-    font-size:12pt;
-    width:50%;
-
-   
-}
-
-
-p{
-    color:$seconday-color;
-    font-size:12pt;
-    font-weight: lighter;
-}
-
-// set up table css in a partial and import it
-
-table{
-    border-collapse: separate;
-    border-spacing: 100px 25px ;
-    text-align: left;   
-    columns: 2;
-}
+@import 'table';
 
 @import 'footer';
-
-
 
 @import 'menumedia';
