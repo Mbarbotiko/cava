@@ -3,7 +3,8 @@
 
 
     table{
-        border-spacing: 50px 25px ;
+        border-spacing: 20px 20px ;
+        width:50%;
    
     }
 
@@ -18,7 +19,9 @@
 @media screen and (max-width: 768px) and (min-width: 450px) {
    
        table{
-        border-spacing: 50px 25px ;
+        border-spacing: 20px 25px ;
+        border:1px solid rgba(255, 255, 255, .2)
+         
 
     }
 
@@ -63,6 +66,7 @@
 
     table{
         border-spacing: 20px 25px ;
+        border:1px solid rgba(255, 255, 255, .2)
        
     }
 

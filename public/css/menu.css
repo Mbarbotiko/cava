@@ -101,7 +101,6 @@ table {
   border-spacing: 50px 25px;
   text-align: left;
   width: 50%;
-  background-color: red;
   float: left;
 }
 
@@ -120,7 +119,8 @@ footer {
 
 @media screen and (max-width: 1250px) and (min-width: 768px) {
   table {
-    border-spacing: 50px 25px;
+    border-spacing: 20px 20px;
+    width: 50%;
   }
 
   .menu-appetizers, .menu-entree, .menu-drinks {
@@ -130,7 +130,8 @@ footer {
 }
 @media screen and (max-width: 768px) and (min-width: 450px) {
   table {
-    border-spacing: 50px 25px;
+    border-spacing: 20px 25px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
   }
 
   #main-header {
@@ -162,6 +163,7 @@ footer {
 @media screen and (max-width: 449px) and (min-width: 0px) {
   table {
     border-spacing: 20px 25px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
   }
 
   #main-header {
