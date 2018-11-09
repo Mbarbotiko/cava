@@ -43,18 +43,28 @@ body, html {
 }
 
 #main-header {
-  font-size: 80pt;
+  font-size: 88pt;
   text-shadow: -4px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   color: white;
   position: absolute;
   left: 32%;
   z-index: 2;
-  font-family: "Great Vibes", cursive;
   top: 50px;
 }
 
 span {
   color: #39c439;
+  font-size: 40pt;
+}
+
+#mainMenu-letter {
+  color: #39c439;
+  font-size: 98pt;
+}
+
+#brackets {
+  color: white;
+  font-size: 88pt;
 }
 
 .menu-header {
@@ -62,7 +72,7 @@ span {
   font-size: 30pt;
   text-align: center;
   bottom: 40px;
-  font-family: "Great Vibes", cursive;
+  color: white;
 }
 
 th {

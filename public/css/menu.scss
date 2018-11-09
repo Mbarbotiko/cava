@@ -3,6 +3,7 @@ $primary-color: rgb(57, 196, 57);
 $seconday-color:white;
 $background: black;
 $menu-header: 30pt;
+$mainMenu-header: 88pt;
 
 
 // sass --watch menu.scss menu.css
@@ -67,26 +68,36 @@ body, html{
 }
 
 #main-header{
-    font-size: 80pt;
+    font-size: $mainMenu-header;
     text-shadow: -4px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     color: $seconday-color;
     position: absolute;
     left:(64%/2);
     z-index:2;
-    font-family: 'Great Vibes', cursive;
     top:50px;
 
 }
 
 span{
     color:$primary-color;
+    font-size: $menu-header+10;
+}
+
+#mainMenu-letter{
+    color:$primary-color;
+    font-size:$mainMenu-header+10;
+}
+
+#brackets{
+    color:$seconday-color;
+    font-size: $mainMenu-header;
 }
 .menu-header{
     position: relative;
     font-size: $menu-header;
     text-align: center;
     bottom:40px;
-    font-family: 'Great Vibes', cursive;
+    color:$seconday-color;
 
 }
 
