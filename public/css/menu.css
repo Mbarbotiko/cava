@@ -3,7 +3,7 @@
   padding-bottom: 33%;
 }
 
-.bg-drinks, .bg-entree, .bg-appetizer {
+.bg-drinks, .bg-entree, .bg-appetizer, .bg-menu {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -18,8 +18,13 @@ body, html {
   color: #39c439;
 }
 
+.bg-menu {
+  background-image: url("../images/group-3.jpg");
+}
+
 .bg-appetizer {
   background-image: url("../images/appetizer.jpg");
+  margin-top: 25%;
 }
 
 .bg-entree {
@@ -42,11 +47,52 @@ body, html {
   border-top-right-radius: 100%;
 }
 
+#underheader-overlay {
+  height: 100vh;
+  background-color: black;
+  position: absolute;
+  right: -50%;
+  top: 85%;
+  display: table;
+  width: 200%;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  margin-bottom: 200px;
+  z-index: -1;
+}
+
+.bg-menu p {
+  margin-top: 15%;
+  width: 50%;
+  color: white;
+  font-size: 40pt;
+  text-align: center;
+  z-index: 1;
+  margin-left: 25%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+#header-overlay {
+  height: 50vh;
+  width: 100%;
+  background-color: #39c439;
+  position: absolute;
+  display: table;
+  opacity: 0.6;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+}
+
 #main-header {
+  width: 50%;
   font-size: 88pt;
   color: white;
   padding-top: 5%;
   text-align: center;
+  border-bottom: 1px solid white;
+  margin-left: 25%;
 }
 
 span {
@@ -54,16 +100,19 @@ span {
   font-size: 40pt;
 }
 
+#dot {
+  font-size: 20pt;
+  color: black;
+}
+
 #mainMenu-letter {
-  color: #39c439;
+  color: black;
   font-size: 88pt;
-  background-color: white;
 }
 
 #mainMenu-letter2 {
-  color: #39c439;
+  color: white;
   font-size: 88pt;
-  background-color: black;
 }
 
 #brackets {
@@ -117,6 +166,23 @@ footer {
   overflow: hidden;
 }
 
+@media screen and (max-width: 1500px) and (min-width: 1251px) {
+  .bg-menu p {
+    margin-top: 20%;
+  }
+
+  #mainMenu-letter {
+    font-size: 80pt;
+  }
+
+  #mainMenu-letter2 {
+    font-size: 80pt;
+  }
+
+  #brackets {
+    font-size: 80pt;
+  }
+}
 @media screen and (max-width: 1250px) and (min-width: 768px) {
   table {
     border-spacing: 20px 20px;
@@ -126,6 +192,22 @@ footer {
   .menu-appetizers, .menu-entree, .menu-drinks {
     background-color: black;
     padding-bottom: 500px;
+  }
+
+  .bg-menu p {
+    margin-top: 20%;
+  }
+
+  #mainMenu-letter {
+    font-size: 58.6666666667pt;
+  }
+
+  #mainMenu-letter2 {
+    font-size: 58.6666666667pt;
+  }
+
+  #brackets {
+    font-size: 58.6666666667pt;
   }
 }
 @media screen and (max-width: 768px) and (min-width: 450px) {

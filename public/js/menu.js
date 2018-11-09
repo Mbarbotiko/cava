@@ -13,6 +13,28 @@ $(document).ready(function () {
     // console.log(across);
 
 // add error handling for ajax call and loading icon  because heroku is slow to load
+
+// function getOffset(el) {
+//     const rect = el.getBoundingClientRect();
+//     return {
+//       left: rect.left + window.scrollX,
+//       top: rect.top + window.scrollY
+//     };
+//   }
+//   //Using this we can call
+  
+//   getOffset(element).left
+//   //or
+  
+//   getOffset(element).top
+
+//get the position of the table
+//get the position of the last . in the newly created string from lop
+//loop until that position matches the position of the right edge of the table
+//create variable that will change with each map loop through the object ++ so a unique ID is created for the element
+//use that to count the string added to the description and check its last . coordinate/ position
+
+
     $.ajax({
         url: 'https://cava-manager.herokuapp.com/api/dishes',
         method: "GET"
