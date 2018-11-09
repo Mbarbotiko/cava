@@ -44,12 +44,9 @@ body, html {
 
 #main-header {
   font-size: 88pt;
-  text-shadow: -4px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   color: white;
-  position: absolute;
-  left: 32%;
-  z-index: 2;
-  top: 50px;
+  padding-top: 5%;
+  text-align: center;
 }
 
 span {
@@ -59,12 +56,20 @@ span {
 
 #mainMenu-letter {
   color: #39c439;
-  font-size: 98pt;
+  font-size: 88pt;
+  background-color: white;
+}
+
+#mainMenu-letter2 {
+  color: #39c439;
+  font-size: 88pt;
+  background-color: black;
 }
 
 #brackets {
   color: white;
   font-size: 88pt;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 .menu-header {
@@ -113,34 +118,60 @@ footer {
 }
 
 @media screen and (max-width: 1250px) and (min-width: 768px) {
-  #main-header {
-    font-size: 60pt;
-    left: 32%;
-  }
-
   table {
     border-spacing: 50px 25px;
   }
 }
-@media screen and (max-width: 768px) and (min-width: 350px) {
-  #main-header {
-    font-size: 45pt;
-    left: 27%;
-  }
-
+@media screen and (max-width: 768px) and (min-width: 450px) {
   table {
     border-spacing: 50px 25px;
   }
-}
-@media screen and (max-width: 349px) and (min-width: 0px) {
+
   #main-header {
-    top: 30%;
-    font-size: 40pt;
-    left: 10%;
+    font-size: 58.6666666667pt;
+    padding-top: 10%;
   }
 
+  #mainMenu-letter {
+    font-size: 58.6666666667pt;
+  }
+
+  #mainMenu-letter2 {
+    font-size: 58.6666666667pt;
+  }
+
+  #brackets {
+    font-size: 58.6666666667pt;
+  }
+}
+@media screen and (max-width: 449px) and (min-width: 0px) {
   table {
     border-spacing: 20px 25px;
+  }
+
+  #main-header {
+    font-size: 44pt;
+    padding-top: 25%;
+  }
+
+  #mainMenu-letter {
+    font-size: 35.2pt;
+  }
+
+  #mainMenu-letter2 {
+    font-size: 35.2pt;
+  }
+
+  #brackets {
+    font-size: 35.2pt;
+  }
+
+  .menu-header {
+    font-size: 20pt;
+  }
+
+  span {
+    font-size: 35pt;
   }
 }
 

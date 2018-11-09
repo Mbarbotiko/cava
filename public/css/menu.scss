@@ -69,13 +69,10 @@ body, html{
 
 #main-header{
     font-size: $mainMenu-header;
-    text-shadow: -4px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     color: $seconday-color;
-    position: absolute;
-    left:(64%/2);
-    z-index:2;
-    top:50px;
-
+    padding-top:5%;
+    text-align: center;
+    
 }
 
 span{
@@ -85,12 +82,20 @@ span{
 
 #mainMenu-letter{
     color:$primary-color;
-    font-size:$mainMenu-header+10;
+    font-size:$mainMenu-header;
+    background-color:white;
+}
+
+#mainMenu-letter2{
+    color:$primary-color;
+    font-size:$mainMenu-header;
+    background-color:black;
 }
 
 #brackets{
     color:$seconday-color;
     font-size: $mainMenu-header;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 .menu-header{
     position: relative;

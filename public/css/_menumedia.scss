@@ -1,46 +1,82 @@
 @media screen and (max-width: 1250px) and (min-width: 768px) {
-    #main-header{
-        font-size: 60pt;
-        left:(64%/2);
 
-    }
+
 
     table{
         border-spacing: 50px 25px ;
    
     }
-    
+
     
 }
 
-@media screen and (max-width: 768px) and (min-width: 350px) {
-    #main-header{
-        font-size: 45pt;
-        left:(54%/2);
-
-    }
+@media screen and (max-width: 768px) and (min-width: 450px) {
+   
        table{
         border-spacing: 50px 25px ;
 
-   
     }
+
+    #main-header{
+        font-size: $mainMenu-header/1.5;
+        padding-top:5%*2;
+        
+    }
+    
+    
+    #mainMenu-letter{
+        font-size:$mainMenu-header/1.5;
+    }
+    
+    #mainMenu-letter2{
+        font-size:$mainMenu-header/1.5;
+    }
+    
+    #brackets{
+        font-size: $mainMenu-header/1.5;
+    }
+
+
 
     //fix javascript and table structure for table formatting.
 
 }
 
-@media screen and (max-width: 349px) and (min-width: 0px) {
-    #main-header{
-        top:30%;
-        font-size: 40pt;
-        left:(20%/2);
-        //use javascript to align this in the middle  during all screen sizes using window listener
-
-    }
+@media screen and (max-width: 449px) and (min-width: 0px) {
+  
 
     table{
         border-spacing: 20px 25px ;
        
     }
+
+    #main-header{
+        font-size: $mainMenu-header/2;
+        padding-top:25%;
+        
+    }
+    
+    
+    #mainMenu-letter{
+        font-size:$mainMenu-header/2.5;
+    }
+    
+    #mainMenu-letter2{
+        font-size:$mainMenu-header/2.5;
+    }
+    
+    #brackets{
+        font-size: $mainMenu-header/2.5;
+    }
+
+    .menu-header{
+        font-size: $menu-header/1.5;
+    
+    }
+
+    span{
+        font-size: $menu-header+5;
+    }
+
 
 }
