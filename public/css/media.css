@@ -361,24 +361,45 @@
 
     #dishes .dish>div{
         height:60rem;
+        width:100%;
 
     }
 
     .dishes-header{
-        top:2.0em;
-        font-size:3.5em;
+        top:0em;
+        font-size:2.5em;
+        width:50%;
+        text-align: center;
+        margin-left:25%;
+        
     }
+
+    #dishes .dish>div{
+        position: relative;
+        height:6em;
+        bottom:-28em;
+        border:none;
+    }
+
+    #dishes .dish:nth-child(8n+2)>div,
+    #dishes .dish:nth-child(8n+4)>div,
+    #dishes .dish:nth-child(8n+5)>div,
+    #dishes .dish:nth-child(8n+7)>div{
+    background: black;
+    color:white;
+    border:none;
+    width:100%;
+    height:6em;
+}
+
     
     .ingredients{
-        width:80%;
-        margin-left:10%;
-        top:6em;
-        font-size: 1.75em;
+        display:none;
 
     }
     
     .ingredients span{
-        font-size: 1.5em;
+        display:none;
 
     }
 
@@ -432,6 +453,9 @@
     .bg-light{
         padding-top:12vh;
     }
+
+
+   
 
 } 
 
@@ -491,25 +515,45 @@
 
     #dishes .dish>div{
         height:60rem;
+        width:100%;
 
     }
 
     .dishes-header{
-        top:1.5em;
+        top:0em;
         font-size:2.5em;
-    
+        width:80%;
+        text-align: center;
+        margin-left:10%;
+        
     }
+
+    #dishes .dish>div{
+        position: relative;
+        height:6em;
+        bottom:-28em;
+        border:none;
+    }
+
+    #dishes .dish:nth-child(8n+2)>div,
+    #dishes .dish:nth-child(8n+4)>div,
+    #dishes .dish:nth-child(8n+5)>div,
+    #dishes .dish:nth-child(8n+7)>div{
+    background: black;
+    color:white;
+    border:none;
+    width:100%;
+    height:6em;
+}
     
     .ingredients{
-        width:80%;
-        margin-left:10%;
-        top:6em;
-        font-size: 1.5em;
+       display: none;
 
     }
     
     .ingredients span{
-        font-size: 1.25em;
+        display: none;
+
 
     }
 
