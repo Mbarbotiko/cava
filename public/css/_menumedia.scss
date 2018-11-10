@@ -1,25 +1,30 @@
-@media screen and (max-width: 1500px) and (min-width: 1251px) {
+@media screen and (max-width: 1500px) and (min-width: 1300px) {
 
 
+    #main-header{
+        width:80%;
+        font-size: $mainMenu-header;
+        padding-top:5%;
+        margin-left:10%;
+    }
 
-    .bg-menu p{
-        margin-top:20%;
-        }
+ 
 
-        #mainMenu-letter{
-            font-size:$mainMenu-header/1.1;
-        }
+    #mainMenu-letter{
+        font-size:$mainMenu-header/1.1;
+    }
         
-        #mainMenu-letter2{
-            font-size:$mainMenu-header/1.1;
-        }
+    #mainMenu-letter2{
+        font-size:$mainMenu-header/1.1;
+    }
         
-        #brackets{
-            font-size: $mainMenu-header/1.1;
-        }
+     #brackets{
+        font-size: $mainMenu-header/1.1;
+    }
+        
 }
 
-@media screen and (max-width: 1250px) and (min-width: 768px) {
+@media screen and (max-width: 1299px) and (min-width: 900px) {
 
 
     table{
@@ -33,119 +38,221 @@
         padding-bottom: 500px;
     }
 
-    .bg-menu p{
-        margin-top:20%;
-        }
+    #main-header{
+        width:80%;
+        font-size: $mainMenu-header;
+        padding-top:5%;
+        margin-left:10%;
+    }
 
-        #mainMenu-letter{
-            font-size:$mainMenu-header/1.5;
-        }
+    .happyhour p{
+        margin-top:0%;
+        position: relative;
+        top:40%;
+        font-size:30pt;
+    }
+
+    #mainMenu-letter{
+        font-size:$mainMenu-header/1.4;
+    }
         
-        #mainMenu-letter2{
-            font-size:$mainMenu-header/1.5;
-        }
+    #mainMenu-letter2{
+        font-size:$mainMenu-header/1.4;
+    }
         
-        #brackets{
-            font-size: $mainMenu-header/1.5;
-        }
+     #brackets{
+        font-size: $mainMenu-header/1.4;
+    }
+
+ 
+}
+@media screen and (max-width: 1299px) and (min-width: 768px) {
+
+
+    table{
+        border-spacing: 20px 20px ;
+        width:50%;
+   
+    }
+
+    %section-shared{
+        background-color:$background;
+        padding-bottom: 500px;
+    }
+
+    #main-header{
+        width:80%;
+        font-size: $mainMenu-header;
+        padding-top:5%;
+        margin-left:10%;
+    }
+
+    .happyhour p{
+        margin-top:0%;
+        font-size:30pt;
+        position:relative;
+        top:55%;
+    }
+
+    #mainMenu-letter{
+        font-size:$mainMenu-header/1.4;
+    }
+        
+    #mainMenu-letter2{
+        font-size:$mainMenu-header/1.4;
+    }
+        
+     #brackets{
+        font-size: $mainMenu-header/1.4;
+    }
+
+ 
+}
+
+@media screen and (max-width: 899px) and (min-width: 768px) {
+
+
+    table{
+        border-spacing: 20px 20px ;
+        width:50%;
+   
+    }
+
+    %section-shared{
+        background-color:$background;
+        padding-bottom: 500px;
+    }
+
+    #main-header{
+        width:80%;
+        font-size: $mainMenu-header;
+        padding-top:5%;
+        margin-left:10%;
+    }
+
+    .happyhour p{
+        position:relative;
+        top:55%;
+        font-size:30pt;
+    }
+
+    #mainMenu-letter{
+        font-size:$mainMenu-header/1.4;
+    }
+        
+    #mainMenu-letter2{
+        font-size:$mainMenu-header/1.4;
+    }
+        
+     #brackets{
+        font-size: $mainMenu-header/1.4;
+    }
+    span{
+        font-size: $menu-header+2;
+    }
+
+
+ 
 }
 
     
 
 
-@media screen and (max-width: 768px) and (min-width: 450px) {
+@media screen and (max-width: 768px) and (min-width: 552px) {
    
        table{
         border-spacing: 20px 25px ;
-        border:1px solid rgba(255, 255, 255, .2)
+        border:1px solid rgba(255, 255, 255, .2);
+        width:100%;
          
-
     }
 
     #main-header{
-        font-size: $mainMenu-header/1.5;
-        padding-top:5%*2;
-        
-    }
-    
-    
-    #mainMenu-letter{
-        font-size:$mainMenu-header/1.5;
-    }
-    
-    #mainMenu-letter2{
-        font-size:$mainMenu-header/1.5;
-    }
-    
-    #brackets{
-        font-size: $mainMenu-header/1.5;
-    }
-
-    table{
-
         width:100%;
-   
+        font-size: $mainMenu-header;
+        padding-top:5%;
+        margin-left:0%;
     }
+
+    .happyhour p{
+        margin-top:0%;
+        position:relative;
+        top:60%;
+        font-size:20pt;
+    }
+
+    #mainMenu-letter{
+        font-size:$mainMenu-header/1.8;
+    }
+        
+    #mainMenu-letter2{
+        font-size:$mainMenu-header/1.8;
+    }
+        
+     #brackets{
+        font-size: $mainMenu-header/1.8;
+    }
+
+
     %section-shared{
         background-color:$background;
         padding-bottom: 1000px;
     }
+    span{
+        font-size: $menu-header+2;
+    }
 
 
-
-
-    //fix javascript and table structure for table formatting.
 
 }
 
-@media screen and (max-width: 449px) and (min-width: 0px) {
+@media screen and (max-width: 551px) and (min-width: 0px) {
   
 
     table{
         border-spacing: 20px 25px ;
-        border:1px solid rgba(255, 255, 255, .2)
-       
+        border:1px solid rgba(255, 255, 255, .2);
+        width:100%;
     }
 
     #main-header{
-        font-size: $mainMenu-header/2;
-        padding-top:25%;
-        
+        width:100%;
+        font-size: $mainMenu-header;
+        padding-top:5%;
+        margin-left:0%;
     }
-    
-    
+
+    .happyhour p{
+        margin-top:0%;
+        position:relative;
+        top:55%;
+        font-size:14pt;
+    }
+
     #mainMenu-letter{
-        font-size:$mainMenu-header/2.5;
+        font-size:$mainMenu-header/3.5;
     }
-    
+        
     #mainMenu-letter2{
-        font-size:$mainMenu-header/2.5;
+        font-size:$mainMenu-header/3.5;
     }
-    
-    #brackets{
-        font-size: $mainMenu-header/2.5;
+        
+     #brackets{
+        font-size: $mainMenu-header/3.5;
     }
 
     .menu-header{
-        font-size: $menu-header/1.5;
+        font-size: $menu-header/3.5;
     
     }
 
     span{
-        font-size: $menu-header+5;
+        font-size: $menu-header/1.5;
     }
 
-    table{
-
-        width:100%;
-   
-    }
     %section-shared{
         background-color:$background;
         padding-bottom: 1000px;
     }
-
-
-
 
 }

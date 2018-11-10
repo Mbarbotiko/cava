@@ -88,8 +88,7 @@ body, html{
     z-index: -1;
 }
 
-.bg-menu p{
-margin-top:15%;
+.happyhour p{
 width:50%;
 color:$seconday-color;
 font-size:40pt;
@@ -98,6 +97,11 @@ z-index: 1;
 margin-left:25%;
 border-top:1px solid white;
 border-bottom:1px solid white;
+
+}
+
+#happy{
+    color:$primary-color;
 }
 
 #header-overlay{

@@ -61,8 +61,7 @@ body, html {
   z-index: -1;
 }
 
-.bg-menu p {
-  margin-top: 15%;
+.happyhour p {
   width: 50%;
   color: white;
   font-size: 40pt;
@@ -71,6 +70,10 @@ body, html {
   margin-left: 25%;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
+}
+
+#happy {
+  color: #39c439;
 }
 
 #header-overlay {
@@ -166,9 +169,12 @@ footer {
   overflow: hidden;
 }
 
-@media screen and (max-width: 1500px) and (min-width: 1251px) {
-  .bg-menu p {
-    margin-top: 20%;
+@media screen and (max-width: 1500px) and (min-width: 1300px) {
+  #main-header {
+    width: 80%;
+    font-size: 88pt;
+    padding-top: 5%;
+    margin-left: 10%;
   }
 
   #mainMenu-letter {
@@ -183,7 +189,7 @@ footer {
     font-size: 80pt;
   }
 }
-@media screen and (max-width: 1250px) and (min-width: 768px) {
+@media screen and (max-width: 1299px) and (min-width: 900px) {
   table {
     border-spacing: 20px 20px;
     width: 50%;
@@ -194,87 +200,190 @@ footer {
     padding-bottom: 500px;
   }
 
-  .bg-menu p {
-    margin-top: 20%;
+  #main-header {
+    width: 80%;
+    font-size: 88pt;
+    padding-top: 5%;
+    margin-left: 10%;
+  }
+
+  .happyhour p {
+    margin-top: 0%;
+    position: relative;
+    top: 40%;
+    font-size: 30pt;
   }
 
   #mainMenu-letter {
-    font-size: 58.6666666667pt;
+    font-size: 62.8571428571pt;
   }
 
   #mainMenu-letter2 {
-    font-size: 58.6666666667pt;
+    font-size: 62.8571428571pt;
   }
 
   #brackets {
-    font-size: 58.6666666667pt;
+    font-size: 62.8571428571pt;
   }
 }
-@media screen and (max-width: 768px) and (min-width: 450px) {
+@media screen and (max-width: 1299px) and (min-width: 768px) {
   table {
-    border-spacing: 20px 25px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-  }
-
-  #main-header {
-    font-size: 58.6666666667pt;
-    padding-top: 10%;
-  }
-
-  #mainMenu-letter {
-    font-size: 58.6666666667pt;
-  }
-
-  #mainMenu-letter2 {
-    font-size: 58.6666666667pt;
-  }
-
-  #brackets {
-    font-size: 58.6666666667pt;
-  }
-
-  table {
-    width: 100%;
+    border-spacing: 20px 20px;
+    width: 50%;
   }
 
   .menu-appetizers, .menu-entree, .menu-drinks {
     background-color: black;
-    padding-bottom: 850px;
-  }
-}
-@media screen and (max-width: 449px) and (min-width: 0px) {
-  table {
-    border-spacing: 20px 25px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 500px;
   }
 
   #main-header {
-    font-size: 44pt;
-    padding-top: 25%;
+    width: 80%;
+    font-size: 88pt;
+    padding-top: 5%;
+    margin-left: 10%;
+  }
+
+  .happyhour p {
+    margin-top: 0%;
+    font-size: 30pt;
+    position: relative;
+    top: 55%;
   }
 
   #mainMenu-letter {
-    font-size: 35.2pt;
+    font-size: 62.8571428571pt;
   }
 
   #mainMenu-letter2 {
-    font-size: 35.2pt;
+    font-size: 62.8571428571pt;
   }
 
   #brackets {
-    font-size: 35.2pt;
+    font-size: 62.8571428571pt;
+  }
+}
+@media screen and (max-width: 899px) and (min-width: 768px) {
+  table {
+    border-spacing: 20px 20px;
+    width: 50%;
   }
 
-  .menu-header {
-    font-size: 20pt;
+  .menu-appetizers, .menu-entree, .menu-drinks {
+    background-color: black;
+    padding-bottom: 500px;
+  }
+
+  #main-header {
+    width: 80%;
+    font-size: 88pt;
+    padding-top: 5%;
+    margin-left: 10%;
+  }
+
+  .happyhour p {
+    position: relative;
+    top: 55%;
+    font-size: 30pt;
+  }
+
+  #mainMenu-letter {
+    font-size: 62.8571428571pt;
+  }
+
+  #mainMenu-letter2 {
+    font-size: 62.8571428571pt;
+  }
+
+  #brackets {
+    font-size: 62.8571428571pt;
   }
 
   span {
-    font-size: 35pt;
+    font-size: 32pt;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 552px) {
+  table {
+    border-spacing: 20px 25px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
   }
 
-  table {
+  #main-header {
     width: 100%;
+    font-size: 88pt;
+    padding-top: 5%;
+    margin-left: 0%;
+  }
+
+  .happyhour p {
+    margin-top: 0%;
+    position: relative;
+    top: 60%;
+    font-size: 20pt;
+  }
+
+  #mainMenu-letter {
+    font-size: 48.8888888889pt;
+  }
+
+  #mainMenu-letter2 {
+    font-size: 48.8888888889pt;
+  }
+
+  #brackets {
+    font-size: 48.8888888889pt;
+  }
+
+  .menu-appetizers, .menu-entree, .menu-drinks {
+    background-color: black;
+    padding-bottom: 1000px;
+  }
+
+  span {
+    font-size: 32pt;
+  }
+}
+@media screen and (max-width: 551px) and (min-width: 0px) {
+  table {
+    border-spacing: 20px 25px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+  }
+
+  #main-header {
+    width: 100%;
+    font-size: 88pt;
+    padding-top: 5%;
+    margin-left: 0%;
+  }
+
+  .happyhour p {
+    margin-top: 0%;
+    position: relative;
+    top: 55%;
+    font-size: 14pt;
+  }
+
+  #mainMenu-letter {
+    font-size: 25.1428571429pt;
+  }
+
+  #mainMenu-letter2 {
+    font-size: 25.1428571429pt;
+  }
+
+  #brackets {
+    font-size: 25.1428571429pt;
+  }
+
+  .menu-header {
+    font-size: 8.5714285714pt;
+  }
+
+  span {
+    font-size: 20pt;
   }
 
   .menu-appetizers, .menu-entree, .menu-drinks {
