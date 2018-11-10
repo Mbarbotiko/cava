@@ -1,38 +1,33 @@
 $(document).ready(function () {
-    // let headerWidth = document.getElementById("main-header").offsetWidth
-    // console.log(headerWidth)
 
-
-    // let pixelsAcross = document.getElementById('howManyPixelsAcross').offsetWidth;
-    // console.log(pixelsAcross); //677 pixels
-
-    // let charactersAcross = document.getElementById('howManyPixelsAcross').innerHTML;
-
-    // let across = charactersAcross.length//45 M's across
-
-    // console.log(across);
 
 // add error handling for ajax call and loading icon  because heroku is slow to load
-
-// function getOffset(el) {
-//     const rect = el.getBoundingClientRect();
-//     return {
-//       left: rect.left + window.scrollX,
-//       top: rect.top + window.scrollY
-//     };
-//   }
-//   //Using this we can call
-  
-//   getOffset(element).left
-//   //or
-  
-//   getOffset(element).top
 
 //get the position of the table
 //get the position of the last . in the newly created string from lop
 //loop until that position matches the position of the right edge of the table
 //create variable that will change with each map loop through the object ++ so a unique ID is created for the element
 //use that to count the string added to the description and check its last . coordinate/ position
+
+
+let testTable = document.getElementById('test');
+console.log(testTable)
+let leftPoint = testTable.getBoundingClientRect();
+console.log(leftPoint);//use the width of element- width of string element
+let stringEl = document.getElementById('ptest').innerHTML
+console.log(stringEl);
+let stringLength = stringEl.length//51 characters long.
+let stringIndex = stringLength-1;
+let lastLetter = stringEl[stringIndex]
+console.log(lastLetter)//returns the last letter in the string
+
+//find the x position of the last Letter vs the x position of the edge of the table
+
+// let width = window.innerWidth;
+// console.log(width);
+
+let tryThis = lastLetter.getBoundingClientRect();
+console.log(tryThis);
 
 
     $.ajax({
