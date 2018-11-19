@@ -354,20 +354,20 @@
     
     #dishes .dish{
         width:100%;
-        height:60rem;
+        height:55rem;
 
       
     }
 
     #dishes .dish>div{
-        height:60rem;
+        height:55rem;
         width:100%;
 
     }
 
     .dishes-header{
-        top:.5em;
-        font-size:2em;
+        top:.75em;
+        font-size:1.75em;
         width:100%;
         text-align: center;
         margin:auto;
@@ -376,8 +376,8 @@
 
     #dishes .dish>div{
         position: relative;
-        height:4.5em;
-        bottom:-34em;
+        height:5em;
+        bottom:-28em;
         border:none;
         border-top:1.5px solid white;
         border-bottom:1.5px solid white;
@@ -387,13 +387,13 @@
     #dishes .dish:nth-child(8n+4)>div,
     #dishes .dish:nth-child(8n+5)>div,
     #dishes .dish:nth-child(8n+7)>div{
-    background: black;
-    color:white;
+    background: white;
+    color:black;
     border:none;
     width:100%;
-    height:4.5em;
-    border-top:1.5px solid white;
-    border-bottom:1.5px solid white;
+    height:5em;
+    border-top:1.5px solid black;
+    border-bottom:1.5px solid black;
 }
  
 
@@ -513,19 +513,19 @@
 
      #dishes .dish{
         width:100%;
-        height:60rem;
+        height:55rem;
 
       
     }
 
     #dishes .dish>div{
-        height:60rem;
+        height:55rem;
         width:100%;
 
     }
 
     .dishes-header{
-        top:.5em;
+        top:.75em;
         font-size:1.75em;
         width:100%;
         text-align: center;
@@ -535,8 +535,8 @@
 
     #dishes .dish>div{
         position: relative;
-        height:3.5em;
-        bottom:-36em;
+        height:5em;
+        bottom:-28em;
         border:none;
         border-top:1.5px solid white;
         border-bottom:1.5px solid white;
@@ -546,13 +546,13 @@
     #dishes .dish:nth-child(8n+4)>div,
     #dishes .dish:nth-child(8n+5)>div,
     #dishes .dish:nth-child(8n+7)>div{
-    background: black;
-    color:white;
+    background: white;
+    color:black;
     border:none;
     width:100%;
-    height:3.5em;
-    border-top:1.5px solid white;
-    border-bottom:1.5px solid white;
+    height:5em;
+    border-top:1.5px solid black;
+    border-bottom:1.5px solid black;
 }
     
     .ingredients{
