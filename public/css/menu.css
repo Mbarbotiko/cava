@@ -18,6 +18,10 @@ body, html {
   color: #39c439;
 }
 
+.loader img {
+  width: 75px;
+}
+
 .bg-menu {
   background-image: url("../images/group-3.jpg");
 }
