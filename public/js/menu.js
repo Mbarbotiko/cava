@@ -28,6 +28,36 @@ $(document).ready(function () {
 
     // let tryThis = lastLetter.getBoundingClientRect();
     // console.log(tryThis);
+
+    // let testTable = document.getElementById('test');
+    // console.log(testTable);
+    // let stringEl = document.getElementById('ptest').innerText;
+    // console.log(stringEl);
+    // let stringIndex = stringEl.length-1
+    // console.log(stringIndex)
+    // let lastCharacter = stringEl[stringIndex]
+    // console.log(lastCharacter)
+
+
+    let testTable = document.getElementById('test');
+    console.log(testTable);
+    let stringEl = document.getElementById('ptest').innerText;
+    console.log(stringEl);
+    let lastCharacter = stringEl.lastIndexOf('.')
+    console.log(lastCharacter)
+    let whatIsIt = stringEl[lastCharacter];
+    console.log(whatIsIt)
+    let findMe = '<span id="dots">'+whatIsIt+'</span>'
+    console.log(findMe)
+    //have to append HTML to this character next so that the coordinates can be found via an element selector
+    let whereIsIt = $(findMe).position();
+    console.log(whereIsIt);
+    console.log(stringEl)
+
+
+
+    //https://stackoverflow.com/questions/5143534/how-to-get-the-position-of-text-within-an-element
+
     let loading = '<div class="loader"><img src="./public/images/loader.gif"></div>'
 
     $(loading).css({"color":"purple"})
