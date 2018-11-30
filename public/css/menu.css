@@ -1,6 +1,6 @@
 .menu-drinks, .menu-entree, .menu-appetizers {
   background-color: black;
-  padding-bottom: 33%;
+  overflow: auto;
 }
 
 .bg-drinks, .bg-entree, .bg-appetizer, .bg-menu {
@@ -9,7 +9,6 @@
   background-position: center;
   position: relative;
   height: 50vh;
-  z-index: -1;
   background-color: black;
 }
 
@@ -62,18 +61,18 @@ body, html {
   border-top-left-radius: 100%;
   border-top-right-radius: 100%;
   margin-bottom: 200px;
-  z-index: -1;
 }
 
 .happyhour p {
+  position: relative;
   width: 50%;
   color: white;
   font-size: 40pt;
   text-align: center;
-  z-index: 1;
   margin-left: 25%;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
+  z-index: 1;
 }
 
 #happy {
@@ -87,12 +86,12 @@ body, html {
   position: absolute;
   display: table;
   opacity: 0.6;
-  z-index: -1;
   top: 0px;
   left: 0px;
 }
 
 #main-header {
+  position: relative;
   width: 50%;
   font-size: 88pt;
   color: white;
@@ -100,6 +99,7 @@ body, html {
   text-align: center;
   border-bottom: 1px solid white;
   margin-left: 25%;
+  z-index: 1;
 }
 
 span {
@@ -132,8 +132,9 @@ span {
   position: relative;
   font-size: 30pt;
   text-align: center;
-  bottom: 40px;
   color: white;
+  z-index: 1;
+  padding-bottom: 10%;
 }
 
 th {
@@ -158,6 +159,8 @@ table {
   text-align: left;
   width: 50%;
   float: left;
+  z-index: 1;
+  position: relative;
 }
 
 footer {
@@ -201,7 +204,6 @@ footer {
 
   .menu-appetizers, .menu-entree, .menu-drinks {
     background-color: black;
-    padding-bottom: 500px;
   }
 
   #main-header {
@@ -238,7 +240,6 @@ footer {
 
   .menu-appetizers, .menu-entree, .menu-drinks {
     background-color: black;
-    padding-bottom: 500px;
   }
 
   #main-header {
@@ -275,7 +276,6 @@ footer {
 
   .menu-appetizers, .menu-entree, .menu-drinks {
     background-color: black;
-    padding-bottom: 500px;
   }
 
   #main-header {
@@ -342,7 +342,6 @@ footer {
 
   .menu-appetizers, .menu-entree, .menu-drinks {
     background-color: black;
-    padding-bottom: 1000px;
   }
 
   span {
@@ -383,16 +382,15 @@ footer {
   }
 
   .menu-header {
-    font-size: 8.5714285714pt;
+    font-size: 30pt;
   }
 
   span {
-    font-size: 20pt;
+    font-size: 30pt;
   }
 
   .menu-appetizers, .menu-entree, .menu-drinks {
     background-color: black;
-    padding-bottom: 1000px;
   }
 }
 

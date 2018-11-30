@@ -5,12 +5,11 @@ $background: black;
 $menu-header: 30pt;
 $mainMenu-header: 88pt;
 
-
 // sass --watch menu.scss menu.css
 
 %section-shared{
     background-color:$background;
-    padding-bottom: 33%;
+    overflow: auto;
 }
 
 %backgroundImg{
@@ -19,8 +18,7 @@ $mainMenu-header: 88pt;
     background-position:center;
     position:relative;
     height:50vh;
-    z-index: -1;
-    background-color:$background;
+    background-color:$background;   
 }
 
 // @mixin menu-radius($radius){
@@ -32,17 +30,14 @@ $mainMenu-header: 88pt;
 //   .for sections later { 
 //       @include menu-radius(rotate(30deg)); 
 //     }
-
 body, html{
     font-family:$font-style;
     color:$primary-color;
-   
 }
 
 .loader img{
     width: 75px;
 }
-
 
 .bg-menu{
     background-image:url('../images/group-3.jpg');
@@ -53,7 +48,6 @@ body, html{
     background-image:url('../images/appetizer.jpg');
     @extend %backgroundImg;
     margin-top:25%;
-
 }
 .bg-entree{
     background-image:url('../images/burger.jpg');
@@ -74,7 +68,6 @@ body, html{
     width:160%;
     border-top-left-radius:100%;
     border-top-right-radius:100%;
-
 }
 
 #underheader-overlay{
@@ -88,19 +81,18 @@ body, html{
     border-top-left-radius:100%;
     border-top-right-radius:100%;
     margin-bottom:200px;
-    z-index: -1;
 }
 
 .happyhour p{
+    position: relative;
     width:50%;
     color:$seconday-color;
     font-size:40pt;
     text-align: center;
-    z-index: 1;
     margin-left:25%;
     border-top:1px solid white;
     border-bottom:1px solid white;
-
+    z-index: 1;
 }
 
 #happy{
@@ -114,13 +106,12 @@ body, html{
     position: absolute;
     display: table;
     opacity: .6;
-    z-index: -1;
     top:0px;
-    left:0px;
-  
+    left:0px; 
 }
 
 #main-header{
+    position: relative;
     width:50%;
     font-size: $mainMenu-header;
     color: $seconday-color;
@@ -128,27 +119,27 @@ body, html{
     text-align: center;
     border-bottom:1px solid white;
     margin-left:25%;
-    
+    z-index: 1;    
 }
 
 span{
     color:$primary-color;
     font-size: $menu-header+10;
 }
+
 #dot{
     font-size: 20pt;
     color:$background;
 }
+
 #mainMenu-letter{
     color:$background;
     font-size:$mainMenu-header;
-
 }
 
 #mainMenu-letter2{
     color:$seconday-color;
     font-size:$mainMenu-header;
-  
 }
 
 #brackets{
@@ -156,28 +147,23 @@ span{
     font-size: $mainMenu-header;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
+
 .menu-header{
     position: relative;
     font-size: $menu-header;
     text-align: center;
-    bottom:40px;
-    color:$seconday-color;
-    
-
+    color:$seconday-color;    
+    z-index: 1;
+    padding-bottom:10%;
 }
-
-
 
 .menu-appetizers{
     @extend %section-shared;
-
 }
-
 
 .menu-entree{
     @extend %section-shared;
 }
-
 
 .menu-drinks{
     @extend %section-shared;

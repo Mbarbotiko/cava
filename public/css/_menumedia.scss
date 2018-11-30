@@ -1,14 +1,11 @@
 @media screen and (max-width: 1500px) and (min-width: 1300px) {
 
-
     #main-header{
         width:80%;
         font-size: $mainMenu-header;
         padding-top:5%;
         margin-left:10%;
     }
-
- 
 
     #mainMenu-letter{
         font-size:$mainMenu-header/1.1;
@@ -26,16 +23,13 @@
 
 @media screen and (max-width: 1299px) and (min-width: 900px) {
 
-
     table{
         border-spacing: 20px 20px ;
         width:50%;
-   
     }
 
     %section-shared{
         background-color:$background;
-        padding-bottom: 500px;
     }
 
     #main-header{
@@ -72,12 +66,10 @@
     table{
         border-spacing: 20px 20px ;
         width:50%;
-   
     }
 
     %section-shared{
         background-color:$background;
-        padding-bottom: 500px;
     }
 
     #main-header{
@@ -106,21 +98,17 @@
         font-size: $mainMenu-header/1.4;
     }
 
- 
 }
 
 @media screen and (max-width: 899px) and (min-width: 768px) {
 
-
     table{
         border-spacing: 20px 20px ;
         width:50%;
-   
     }
 
     %section-shared{
         background-color:$background;
-        padding-bottom: 500px;
     }
 
     #main-header{
@@ -150,9 +138,6 @@
     span{
         font-size: $menu-header+2;
     }
-
-
- 
 }
 
     
@@ -163,8 +148,7 @@
        table{
         border-spacing: 20px 25px ;
         border:1px solid rgba(255, 255, 255, .2);
-        width:100%;
-         
+        width:100%;   
     }
 
     #main-header{
@@ -193,22 +177,16 @@
         font-size: $mainMenu-header/1.8;
     }
 
-
     %section-shared{
         background-color:$background;
-        padding-bottom: 1000px;
     }
     span{
         font-size: $menu-header+2;
     }
-
-
-
 }
 
 @media screen and (max-width: 551px) and (min-width: 0px) {
   
-
     table{
         border-spacing: 20px 25px ;
         border:1px solid rgba(255, 255, 255, .2);
@@ -242,17 +220,17 @@
     }
 
     .menu-header{
-        font-size: $menu-header/3.5;
+        font-size: $menu-header;
     
     }
 
     span{
-        font-size: $menu-header/1.5;
+        font-size: $menu-header;
     }
 
     %section-shared{
         background-color:$background;
-        padding-bottom: 1000px;
+       
     }
 
 }
