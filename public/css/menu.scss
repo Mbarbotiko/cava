@@ -33,6 +33,7 @@ $mainMenu-header: 88pt;
 body, html{
     font-family:$font-style;
     color:$primary-color;
+    background-color:$background;
 }
 
 .loader img{
@@ -47,7 +48,7 @@ body, html{
 .bg-appetizer{
     background-image:url('../images/appetizer.jpg');
     @extend %backgroundImg;
-    margin-top:25%;
+
 }
 .bg-entree{
     background-image:url('../images/burger.jpg');
@@ -80,7 +81,10 @@ body, html{
     width:200%;
     border-top-left-radius:100%;
     border-top-right-radius:100%;
-    margin-bottom:200px;
+}
+
+.happyhour{
+    height:50vh;
 }
 
 .happyhour p{

@@ -15,6 +15,7 @@
 body, html {
   font-family: "Julius Sans One", "sans-serif";
   color: #39c439;
+  background-color: black;
 }
 
 .loader img {
@@ -27,7 +28,6 @@ body, html {
 
 .bg-appetizer {
   background-image: url("../images/appetizer.jpg");
-  margin-top: 25%;
 }
 
 .bg-entree {
@@ -60,7 +60,10 @@ body, html {
   width: 200%;
   border-top-left-radius: 100%;
   border-top-right-radius: 100%;
-  margin-bottom: 200px;
+}
+
+.happyhour {
+  height: 50vh;
 }
 
 .happyhour p {
@@ -250,10 +253,9 @@ footer {
   }
 
   .happyhour p {
-    margin-top: 0%;
     font-size: 30pt;
     position: relative;
-    top: 55%;
+    top: 25%;
   }
 
   #mainMenu-letter {
@@ -289,6 +291,7 @@ footer {
     position: relative;
     top: 55%;
     font-size: 30pt;
+    top: 25%;
   }
 
   #mainMenu-letter {
@@ -326,6 +329,7 @@ footer {
     position: relative;
     top: 60%;
     font-size: 20pt;
+    top: 25%;
   }
 
   #mainMenu-letter {
@@ -365,7 +369,7 @@ footer {
   .happyhour p {
     margin-top: 0%;
     position: relative;
-    top: 55%;
+    top: 25%;
     font-size: 14pt;
   }
 
