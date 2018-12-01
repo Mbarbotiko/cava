@@ -1,6 +1,7 @@
 .menu-drinks, .menu-entree, .menu-appetizers {
   background-color: black;
   overflow: auto;
+  padding-bottom: 5%;
 }
 
 .bg-drinks, .bg-entree, .bg-appetizer, .bg-menu {
@@ -10,6 +11,10 @@
   position: relative;
   height: 50vh;
   background-color: black;
+}
+
+#test {
+  background-color: red;
 }
 
 body, html {
@@ -137,7 +142,7 @@ span {
   text-align: center;
   color: white;
   z-index: 1;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 th {

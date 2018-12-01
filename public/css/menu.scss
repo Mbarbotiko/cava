@@ -10,6 +10,7 @@ $mainMenu-header: 88pt;
 %section-shared{
     background-color:$background;
     overflow: auto;
+    padding-bottom:5%;
 }
 
 %backgroundImg{
@@ -19,6 +20,10 @@ $mainMenu-header: 88pt;
     position:relative;
     height:50vh;
     background-color:$background;   
+}
+
+#test{
+    background-color:red;
 }
 
 // @mixin menu-radius($radius){
@@ -158,7 +163,7 @@ span{
     text-align: center;
     color:$seconday-color;    
     z-index: 1;
-    padding-bottom:10%;
+    padding-bottom:5%;
 }
 
 .menu-appetizers{
