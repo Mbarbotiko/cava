@@ -60,13 +60,18 @@ $(document).ready(function () {
         let table = document.getElementsByTagName('table')
         for (var i = 0; i < table.length; i++) {
             let point = table[i].getBoundingClientRect();
+            console.log(point)
             let rightPoint = point.right;
+            console.log(rightPoint)
             let roundedRightPoint = Math.round(rightPoint)
             console.log(roundedRightPoint)
             let offSetNum = roundedRightPoint - 100;
             let p = table[i].getElementsByTagName('p')[0]
+            console.log(p)
             a = i;
+            console.log(a)
             b = table.length
+            console.log(b)
             dots(p, offSetNum, a, b);
         }
     }
